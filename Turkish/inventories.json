@@ -1,0 +1,648 @@
+{
+  "upgradeGUITitle": "&7Yükseltme Menüsü",
+  "boosterGUITitle": "&7Yükseltici Menüsü",
+  "confirmationGUITitle": "&7Emin misiniz?",
+  "missionsGUITitle": "&7Görevler",
+  "membersGUITitle": "&7Ada Takımın",
+  "coopGUITitle": "&7Coop Adaları",
+  "islandMenuGUITitle": "&7Menü",
+  "warpGUITitle": "&7Ada Warpları",
+  "topGUITitle": "&7En iyi adalar",
+  "borderColorGUITitle": "&7Sınır rengi",
+  "permissionsGUITitle": "&7Yetkiler",
+  "schematicselectGUITitle": "&7Bir Ada Seçin",
+  "bankGUITitle": "&7Ada Bankası",
+  "visitGUITitle": "&7Bir Ada Ziyareti",
+  "shopGUITitle": "&7Ada Marketi",
+  "biomeGUITitle": "&7Ada Biyomu",
+  "upgradeGUISize": 27,
+  "boosterGUISize": 27,
+  "missionsGUISize": 27,
+  "membersGUISize": 27,
+  "coopGUISize": 27,
+  "islandMenuGUISize": 45,
+  "warpGUISize": 27,
+  "topGUISize": 27,
+  "borderColorGUISize": 27,
+  "permissionsGUISize": 27,
+  "schematicselectGUISize": 27,
+  "bankGUISize": 27,
+  "visitGUISize": 54,
+  "shopGUISize": 54,
+  "biomeGUISize": 54,
+  "spawner": {
+    "material": "SPAWNER",
+    "amount": 1,
+    "title": "&b&lArtan Moblar",
+    "lore": [
+      "&7Spawnerlar çok mu yavaş? Bunu al",
+      "&7spawner hızını 2 kat arttırır",
+      "",
+      "&b&lBilgi:",
+      "&b&l * &7Kalan süre: &b{spawnerbooster_minutes} dakika ve {spawnerbooster_seconds} saniye",
+      "&b&l * &7Yükseltici Maliyeti: &b{spawnerbooster_crystalcost} Kristaller ve ${spawnerbooster_vaultcost}",
+      "",
+      "&b&l[!] &bBu Booster'ı Satın Almak için Sağ Tıklayın."
+    ]
+  },
+  "farming": {
+    "material": "WHEAT",
+    "amount": 1,
+    "title": "&b&lArtan Mahsuller",
+    "lore": [
+      "&7Ekinleriniz çok mu yavaş? Bunu al",
+      "&7ekin büyüme oranlarını 2 kat  arttırır",
+      "",
+      "&b&lBilgi:",
+      "&b&l * &7Kalan süre: &b{farmingbooster_minutes} dakika ve {farmingbooster_seconds} saniye",
+      "&b&l * &7Yükseltici Maliyeti: &b{farmingbooster_crystalcost} Kristaller ve ${farmingbooster_vaultcost}",
+      "",
+      "&b&l[!] &bBu Booster'ı Satın Almak için Sağ Tıklayın."
+    ]
+  },
+  "exp": {
+    "material": "EXPERIENCE_BOTTLE",
+    "amount": 1,
+    "title": "&b&lArtan Deneyim",
+    "lore": [
+      "&7Exp almak çok uzun sürüyor mu? Bunu al",
+      "&7güçlendiriçi ve 2 katı fazla exp verir.",
+      "",
+      "&b&lBilgi:",
+      "&b&l * &7Kalan süre: &b{expbooster_minutes} dakika ve {expbooster_seconds}saniye",
+      "&b&l * &7Yükseltici Maliyeti: &b{expbooster_crystalcost} Kristaller ve ${expbooster_vaultcost}",
+      "",
+      "&b&l[!] &bBu Booster'ı Satın Almak için Sağ Tıklayın."
+    ]
+  },
+  "flight": {
+    "material": "FEATHER",
+    "amount": 1,
+    "title": "&b&lArtan Uçuş",
+    "lore": [
+      "&7Adanızdan düşmekten bıktınız mı? Bunu al",
+      "&7güçlendirin ve tüm üyelerin uçmasına izin verin.",
+      "",
+      "&b&lBilgi:",
+      "&b&l * &7Kalan süre: &b{flightbooster_minutes} dakika ve {flightbooster_seconds} saniye",
+      "&b&l * &7Yükseltici Maliyeti: &b{flightbooster_crystalcost} Kristaller ve ${flightbooster_vaultcost}",
+      "",
+      "&b&l[!] &bBu Booster'ı Satın Almak için Sağ Tıklayın."
+    ]
+  },
+  "size": {
+    "material": "GRASS_BLOCK",
+    "amount": 1,
+    "title": "&b&lAda Boyutu",
+    "lore": [
+      "&7Adanız size küçükmü geliyor? Bunu al",
+      "&7Ada boyutunu artırmak için yükseltme.",
+      "",
+      "&b&lBilgi:",
+      "&b&l * &7Mevcut seviye: &b{sizelevel}",
+      "&b&l * &7Şu anki boyutu: &b{sizeblocks}x{sizeblocks} Blocks",
+      "&b&l * &7Yükseltme Maliyeti: &b{sizecrystalscost} Kristaller ve ${sizevaultcost}",
+      "&b&lSeviyeleri:",
+      "&b&l * &7Seviye 1: &b50x50 Blok",
+      "&b&l * &7Seviye 2: &b100x100 Blok",
+      "&b&l * &7Seviye 3: &b150x150 Blok",
+      "",
+      "&b&l[!] &bBu Booster'ı Satın Almak için Sağ Tıklayın."
+    ]
+  },
+  "member": {
+    "material": "ARMOR_STAND",
+    "amount": 1,
+    "title": "&b&lTakım Boyutu",
+    "lore": [
+      "&7Daha fazla üyeye mi ihtiyacınız var? Bunu al",
+      "&7üye sayınızı artırmak için yeni seviyeye geçirin.",
+      "",
+      "&b&lInformation:",
+      "&b&l * &7Mevcut seviye: &b{memberlevel}",
+      "&b&l * &7Şu anki üyeler: &b{membercount} Oyuncu",
+      "&b&l * &7Yükseltme Maliyeti: &b{membercrystalscost} Kristaller ve ${membervaultcost}",
+      "&b&lSeviyeleri:",
+      "&b&l * &7Seviye 1: &b9 Oyuncu",
+      "&b&l * &7Seviye 2: &b18 Oyuncu",
+      "&b&l * &7Seviye 3: &b27 Oyuncu",
+      "",
+      "&b&l[!] &bBu Booster'ı Satın Almak için Sağ Tıklayın."
+    ]
+  },
+  "warp": {
+    "material": "END_PORTAL_FRAME",
+    "amount": 1,
+    "title": "&b&lAda Warpları",
+    "lore": [
+      "&7Daha fazla ada warplarına mi ihtiyacınız var? Bunu al",
+      "&7ada warp sayınızı artırmak için yükseltin.",
+      "",
+      "&b&lBilgi:",
+      "&b&l * &7Mevcut seviye: &b{warplevel}",
+      "&b&l * &7Güncel Warplar: &b{warpcount} Warplar",
+      "&b&l * &7Yükseltme Maliyeti: &b{warpcrystalscost} Kristaller ve ${warpvaultcost}",
+      "&b&lSeviyeleri:",
+      "&b&l * &7Seviye 1: &b2 Warps",
+      "&b&l * &7Seviye 2: &b5 Warps",
+      "&b&l * &7Seviye 3: &b9 Warps",
+      "",
+      "&b&l[!] &bBu Booster'ı Satın Almak için Sağ Tıklayın."
+    ]
+  },
+  "ores": {
+    "material": "DIAMOND_ORE",
+    "amount": 1,
+    "title": "&b&lAda Jeneratörü",
+    "lore": [
+      "&7Jeneratörünüzü geliştirmek mi istiyorsunuz? Bunu al",
+      "&7yükseltmek için tıklayın",
+      "",
+      "&b&lBilgi:",
+      "&b&l * &7Mevcut seviye: &b{oreslevel}",
+      "&b&l * &7Yükseltme Maliyeti: &b{orescrystalscost} Kristaller ve ${oresvaultcost}",
+      "",
+      "&b&l[!] &bBu Booster'ı Satın Almak için Sağ Tıklayın."
+    ]
+  },
+  "experience": {
+    "material": "EXPERIENCE_BOTTLE",
+    "amount": 1,
+    "title": "&b&lAda Deneyimi",
+    "lore": [
+      "&7{experience} Deneyim",
+      "&b&l[!] &bPara çekmek için sol tıklayın",
+      "&b&l[!] &bYatırmak için sağ tıklayın"
+    ],
+    "slot": 11
+  },
+  "crystals": {
+    "material": "NETHER_STAR",
+    "amount": 1,
+    "title": "&b&lAda Kristalleri",
+    "lore": [
+      "&7{crystals} Kristaller",
+      "&b&l[!] &bPara çekmek için sol tıklayın",
+      "&b&l[!] &bYatırmak için sağ tıklayın"
+    ],
+    "slot": 13
+  },
+  "money": {
+    "material": "PAPER",
+    "amount": 1,
+    "title": "&b&lAda Parası",
+    "lore": [
+      "&7${money}",
+      "&b&l[!] &bPara çekmek için sol tıklayın",
+      "&b&l[!] &bYatırmak için sağ tıklayın"
+    ],
+    "slot": 15
+  },
+  "crystal": {
+    "material": "NETHER_STAR",
+    "amount": 1,
+    "title": "&b*** &b&lAda Kristali &b***",
+    "lore": [
+      "",
+      "&b&l[!] &bRedeem'e git, Ada Bankanıza git"
+    ]
+  },
+  "background": {
+    "material": "BLACK_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": " ",
+    "lore": []
+  },
+  "nextPage": {
+    "material": "LIME_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&a&lSonraki Sayfa",
+    "lore": []
+  },
+  "previousPage": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&c&lÖnceki sayfa",
+    "lore": []
+  },
+  "biome": {
+    "material": "GRASS_BLOCK",
+    "amount": 1,
+    "title": "&b&l{biome} Biome",
+    "lore": []
+  },
+  "back": {
+    "material": "NETHER_STAR",
+    "amount": 1,
+    "title": "&c&lGeri",
+    "lore": []
+  },
+  "islandmember": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&bRol: {role}",
+      "",
+      "&b&l[!] &bRütbesini {demote} için sol tıkla.",
+      "&b&l[!] &bBu oyuncuyu ziyaret etmek için sağ tıklayın."
+    ]
+  },
+  "islandcoop": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&b&l * &7Ada: &b{name}",
+      "&b&l * &7Rütbe: &b{rank}",
+      "&b&l * &7Seviye: &b{value}",
+      "",
+      "&b&l[!] &bBu adaya ışınlanmak için sol tıklayın.",
+      "&b&l[!] &bBu adada işbirliği yapmak için sağ tıklayın."
+    ]
+  },
+  "islandRoles": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&l{role}",
+    "lore": []
+  },
+  "islandPermissionAllow": {
+    "material": "LIME_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&l{permission}",
+    "lore": []
+  },
+  "islandPermissionDeny": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&l{permission}",
+    "lore": []
+  },
+  "islandWarp": {
+    "material": "YELLOW_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&l{warp}",
+    "lore": [
+      "",
+      "&b&l[!] &bBu çözgü için ışınlanmak için sol tıklayın.",
+      "&b&l[!] &bÇözgü için Sil'e sağ tıklayın."
+    ]
+  },
+  "topisland": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&b&l * &7Ada: &b{name}",
+      "",
+      "&b&l * &7Zümrüt Blok: &b{EMERALD_BLOCK_amount}",
+      "&b&l * &7Elmas Blok: &b{DIAMOND_BLOCK_amount}",
+      "&b&l * &7Altın Blok: &b{GOLD_BLOCK_amount}",
+      "&b&l * &7Demir Blok: &b{IRON_BLOCK_amount}",
+      "&b&l * &7Huni Blok: &b{HOPPER_amount}",
+      "&b&l * &7Zümrüt Cevheri: &b{DIAMOND_ORE_amount}",
+      "",
+      "&b&l * &7Rütbe: &b{rank}",
+      "&b&l * &7Seviye: &b{value}",
+      "",
+      "&b&l[!] &bBu adaya ışınlanmak için sol tıklayın."
+    ]
+  },
+  "visitisland": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&b&l * &7Ada: &b{name}",
+      "&b&l * &7Rütbe: &b{rank}",
+      "&b&l * &7Seviye: &b{value}",
+      "&b&l * &7Vote: &b{votes}",
+      "",
+      "&b&l[!] &bBu adaya ışınlanmak için Sol Tıklayın.",
+      "&b&l[!] &bBu adaya oy vermek için Sağ Tıkla."
+    ]
+  },
+  "red": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&c&lKırmızı",
+    "lore": []
+  },
+  "green": {
+    "material": "LIME_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&a&lYeşil",
+    "lore": []
+  },
+  "blue": {
+    "material": "BLUE_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&lMavi",
+    "lore": []
+  },
+  "off": {
+    "material": "WHITE_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&f&lBeyaz",
+    "lore": []
+  },
+  "missionsItems": [
+    {
+      "material": "EXPERIENCE_BOTTLE",
+      "amount": 1,
+      "title": "&b&lHazine Avcısı Seviyesi {Treasure Hunterlevel}",
+      "lore": [
+        "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+        "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
+        "",
+        "&b&lBilgi:",
+        "&b&l * &7Amaç: &b{Treasure Hunteramount} Deneyim Topla",
+        "&b&l * &7Şu anki durum: &b{Treasure Hunterstatus}",
+        "&b&l * &7Ödül: &b{Treasure Huntercrystals} Ada Kristalleri ve ${Treasure Huntervault}",
+        "",
+        "&b&l[!] &bÖdüller için bu görevi tamamla."
+      ],
+      "slot": 10
+    },
+    {
+      "material": "GOLD_INGOT",
+      "amount": 1,
+      "title": "&b&lRakip Düzeyi {Competitorlevel}",
+      "lore": [
+        "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+        "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
+        "",
+        "&b&lBilgi:",
+        "&b&l * &7Amaç: &b{Competitoramount} Ada Leveli",
+        "&b&l * &7Şu anki durum: &b{Competitorstatus}",
+        "&b&l * &7Ödül: &b{Competitorcrystals} Ada Kristalleri ve ${Competitorvault}",
+        "",
+        "&b&l[!] &bÖdüller için bu görevi tamamla."
+      ],
+      "slot": 11
+    },
+    {
+      "material": "DIAMOND_ORE",
+      "amount": 1,
+      "title": "&b&lMadenci Seviyesi {Minerlevel}",
+      "lore": [
+        "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+        "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
+        "",
+        "&b&lBilgi:",
+        "&b&l * &7Amaç: &b{Mineramount} Cevheri Yok Et",
+        "&b&l * &7Şu anki durum: &b{Minerstatus}",
+        "&b&l * &7Ödül: &b{Minercrystals} Ada Kristalleri ve ${Minervault}",
+        "",
+        "&b&l[!] &bÖdüller için bu görevi tamamla."
+      ],
+      "slot": 12
+    },
+    {
+      "material": "SUGAR_CANE",
+      "amount": 1,
+      "title": "&b&lTarım Seviyesi {Farmerlevel}",
+      "lore": [
+        "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+        "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
+        "",
+        "&b&lBilgi:",
+        "&b&l * &7Amaç: &b{Farmeramount} Bitki Hasat Et",
+        "&b&l * &7Şu anki durum: &b{Farmerstatus}",
+        "&b&l * &7Ödül: &b{Farmercrystals} Ada Kristalleri ve ${Farmervault}",
+        "",
+        "&b&l[!] &bÖdüller için bu görevi tamamla."
+      ],
+      "slot": 13
+    },
+    {
+      "material": "BLAZE_POWDER",
+      "amount": 1,
+      "title": "&b&lAvcı Seviyesi {Hunterlevel}",
+      "lore": [
+        "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+        "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
+        "",
+        "&b&lBilgi:",
+        "&b&l * &7Amaç: &b{Hunteramount} Mob öldür",
+        "&b&l * &7Şu anki durum: &b{Hunterstatus}",
+        "&b&l * &7Ödül: &b{Huntercrystals} Ada Kristalleri ve ${Huntervault}",
+        "",
+        "&b&l[!] &bÖdüller için bu görevi tamamla."
+      ],
+      "slot": 14
+    },
+    {
+      "material": "FISHING_ROD",
+      "amount": 1,
+      "title": "&b&lBalıkçı Seviyesi {Fishermanlevel}",
+      "lore": [
+        "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+        "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
+        "",
+        "&b&lBilgi:",
+        "&b&l * &7Amaç: &b{Fishermanamount} Balık Tut",
+        "&b&l * &7Şu anki durum: &b{Fishermanstatus}",
+        "&b&l * &7Ödül: &b{Fishermancrystals} Ada Kristalleri ve ${Fishermanvault}",
+        "",
+        "&b&l[!] &bÖdüller için bu görevi tamamla."
+      ],
+      "slot": 15
+    },
+    {
+      "material": "COBBLESTONE",
+      "amount": 1,
+      "title": "&b&lBuilder Seviyesi {Builderlevel}",
+      "lore": [
+        "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+        "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
+        "",
+        "&b&lBilgi:",
+        "&b&l * &7Amaç: &b{Builderamount} Blok yerleştir",
+        "&b&l * &7Şu anki durum: &b{Builderstatus}",
+        "&b&l * &7Ödül: &b{Buildercrystals} Ada Kristalleri ve ${Buildervault}",
+        "",
+        "&b&l[!] &bÖdüller için bu görevi tamamla."
+      ],
+      "slot": 16
+    }
+  ],
+  "menu": [
+    [
+      {
+        "material": "BEACON",
+        "amount": 1,
+        "title": "&b&lAda Sınırları",
+        "lore": [
+          "&7Ada sınırınızı değiştirin."
+        ],
+        "slot": 24
+      },
+      "is border"
+    ],
+    [
+      {
+        "material": "IRON_SWORD",
+        "amount": 1,
+        "title": "&b&lAda Görevleri",
+        "lore": [
+          "&7Ada görevlerini görüntüleyin."
+        ],
+        "slot": 22
+      },
+      "is missions"
+    ],
+    [
+      {
+        "material": "WHITE_BED",
+        "amount": 1,
+        "title": "&b&lAdana Git",
+        "lore": [
+          "&7Ada evinize ışınlanmak için tıklayın!"
+        ],
+        "slot": 13
+      },
+      "is home"
+    ],
+    [
+      {
+        "material": "END_PORTAL_FRAME",
+        "amount": 1,
+        "title": "&b&lAda Warpları",
+        "lore": [
+          "&7Başka oyuncuları ziyaret edin."
+        ],
+        "slot": 20
+      },
+      "is warps"
+    ],
+    [
+      {
+        "material": "EXPERIENCE_BOTTLE",
+        "amount": 1,
+        "title": "&b&lAda Boost",
+        "lore": [
+          "&7Adanıza boost yapar."
+        ],
+        "slot": 23
+      },
+      "is booster"
+    ],
+    [
+      {
+        "material": "GOLD_INGOT",
+        "amount": 1,
+        "title": "&b&lAda Bankası",
+        "lore": [
+          "&7Ada Bankanızı görüntüleyin."
+        ],
+        "slot": 30
+      },
+      "is bank"
+    ],
+    [
+      {
+        "material": "GRASS_BLOCK",
+        "amount": 1,
+        "title": "&b&lAdanı Sıfırla",
+        "lore": [
+          "&7Adanızı yenileyin."
+        ],
+        "slot": 36
+      },
+      "is regen"
+    ],
+    [
+      {
+        "material": "NAME_TAG",
+        "amount": 1,
+        "title": "&b&lAda Coop",
+        "lore": [
+          "&7Coop Adaları'nızı görüntüleyin."
+        ],
+        "slot": 32
+      },
+      "is coop"
+    ],
+    [
+      {
+        "material": "PLAYER_HEAD",
+        "amount": 1,
+        "title": "&b&lAda Yükseltmeleri",
+        "headOwner": "ABigDwarf",
+        "lore": [
+          "&7Adanızı yükseltin."
+        ],
+        "slot": 21
+      },
+      "is upgrade"
+    ],
+    [
+      {
+        "material": "DIAMOND",
+        "amount": 1,
+        "title": "&b&lEn iyi 10 Ada",
+        "lore": [
+          "&7En iyi adaları görüntüleyin."
+        ],
+        "slot": 0
+      },
+      "is top"
+    ],
+    [
+      {
+        "material": "PLAYER_HEAD",
+        "amount": 1,
+        "title": "&b&lAda Biyomu",
+        "headOwner": "BlockminersTV",
+        "lore": [
+          "&7Ada biyomunu değiştir."
+        ],
+        "slot": 12
+      },
+      "is biome"
+    ],
+    [
+      {
+        "material": "BOOK",
+        "amount": 1,
+        "title": "&b&lAda izinleri",
+        "lore": [
+          "&7Ada izinlerini değiştirin."
+        ],
+        "slot": 31
+      },
+      "is permissions"
+    ],
+    [
+      {
+        "material": "BARRIER",
+        "amount": 1,
+        "title": "&b&lAdanı Sil",
+        "lore": [
+          "&7Adanı siler."
+        ],
+        "slot": 44
+      },
+      "is delete"
+    ],
+    [
+      {
+        "material": "PLAYER_HEAD",
+        "amount": 1,
+        "title": "&b&lAda Takımı",
+        "headOwner": "Peaches_MLG",
+        "lore": [
+          "&7Ada üyelerinizi görüntüleyin."
+        ],
+        "slot": 14
+      },
+      "is members"
+    ]
+  ]
+}

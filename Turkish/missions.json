@@ -1,0 +1,451 @@
+{
+  "missions": [
+    {
+      "name": "Treasure Hunter",
+      "levels": {
+        "1": {
+          "crystalReward": 5,
+          "vaultReward": 1000,
+          "amount": 100,
+          "type": "EXPERIENCE",
+          "conditions": []
+        },
+        "2": {
+          "crystalReward": 10,
+          "vaultReward": 5000,
+          "amount": 1000,
+          "type": "EXPERIENCE",
+          "conditions": []
+        },
+        "3": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 10000,
+          "type": "EXPERIENCE",
+          "conditions": []
+        }
+      },
+      "item": {
+        "material": "EXPERIENCE_BOTTLE",
+        "amount": 1,
+        "title": "&b&lHazine Avcısı Seviyesi {level}",
+        "lore": [
+          "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+          "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
+          "",
+          "&b&lBilgi:",
+          "&b&l * &7Amaç: &b{amount} Deneyim Topla",
+          "&b&l * &7Şu anki durum: &b{status}",
+          "&b&l * &7Ödül: &b{crystalsReward} Ada Kristalleri ve ${vaultReward}",
+          "",
+          "&b&l[!] &bÖdüller için bu görevi tamamla."
+        ],
+        "slot": 10
+      }
+    },
+    {
+      "name": "Competitor",
+      "levels": {
+        "1": {
+          "crystalReward": 5,
+          "vaultReward": 10000,
+          "amount": 100,
+          "type": "VALUE_INCREASE",
+          "conditions": []
+        },
+        "2": {
+          "crystalReward": 10,
+          "vaultReward": 10000,
+          "amount": 500,
+          "type": "VALUE_INCREASE",
+          "conditions": []
+        },
+        "3": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 1000,
+          "type": "VALUE_INCREASE",
+          "conditions": []
+        },
+        "4": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 5000,
+          "type": "VALUE_INCREASE",
+          "conditions": []
+        },
+        "5": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 10000,
+          "type": "VALUE_INCREASE",
+          "conditions": []
+        }
+      },
+      "item": {
+        "material": "GOLD_INGOT",
+        "amount": 1,
+        "title": "&b&lRakip Düzeyi Seviye {level}",
+        "lore": [
+          "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+          "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
+          "",
+          "&b&lBilgi:",
+          "&b&l * &7Amaç: &b{amount} Ada Leveli",
+          "&b&l * &7Şu anki durum: &b{status}",
+          "&b&l * &7Ödül: &b{crystalsReward} Ada Kristalleri ve ${vaultReward}",
+          "",
+          "&b&l[!] &bÖdüller için bu görevi tamamla."
+        ],
+        "slot": 11
+      }
+    },
+    {
+      "name": "Miner",
+      "levels": {
+        "1": {
+          "crystalReward": 1,
+          "vaultReward": 10000,
+          "amount": 50,
+          "type": "BLOCK_BREAK",
+          "conditions": [
+            "COAL_ORE",
+            "DIAMOND_ORE",
+            "EMERALD_ORE",
+            "GOLD_ORE",
+            "IRON_ORE",
+            "LAPIS_ORE",
+            "NETHER_QUARTZ_ORE",
+            "REDSTONE_ORE"
+          ]
+        },
+        "2": {
+          "crystalReward": 5,
+          "vaultReward": 10000,
+          "amount": 100,
+          "type": "BLOCK_BREAK",
+          "conditions": [
+            "COAL_ORE",
+            "DIAMOND_ORE",
+            "EMERALD_ORE",
+            "GOLD_ORE",
+            "IRON_ORE",
+            "LAPIS_ORE",
+            "NETHER_QUARTZ_ORE",
+            "REDSTONE_ORE"
+          ]
+        },
+        "3": {
+          "crystalReward": 10,
+          "vaultReward": 10000,
+          "amount": 500,
+          "type": "BLOCK_BREAK",
+          "conditions": [
+            "COAL_ORE",
+            "DIAMOND_ORE",
+            "EMERALD_ORE",
+            "GOLD_ORE",
+            "IRON_ORE",
+            "LAPIS_ORE",
+            "NETHER_QUARTZ_ORE",
+            "REDSTONE_ORE"
+          ]
+        },
+        "4": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 1000,
+          "type": "BLOCK_BREAK",
+          "conditions": [
+            "COAL_ORE",
+            "DIAMOND_ORE",
+            "EMERALD_ORE",
+            "GOLD_ORE",
+            "IRON_ORE",
+            "LAPIS_ORE",
+            "NETHER_QUARTZ_ORE",
+            "REDSTONE_ORE"
+          ]
+        },
+        "5": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 2000,
+          "type": "BLOCK_BREAK",
+          "conditions": [
+            "COAL_ORE",
+            "DIAMOND_ORE",
+            "EMERALD_ORE",
+            "GOLD_ORE",
+            "IRON_ORE",
+            "LAPIS_ORE",
+            "NETHER_QUARTZ_ORE",
+            "REDSTONE_ORE"
+          ]
+        }
+      },
+      "item": {
+        "material": "DIAMOND_ORE",
+        "amount": 1,
+        "title": "&b&lMadenci Seviyesi {level}",
+        "lore": [
+          "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+          "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
+          "",
+          "&b&lBilgi:",
+          "&b&l * &7Amaç: &b{amount} Cevheri Yok Et",
+          "&b&l * &7Şu anki durum: &b{status}",
+          "&b&l * &7Ödül: &b{crystalsReward} Ada Kristalleri ve ${vaultReward}",
+          "",
+          "&b&l[!] &bÖdüller için bu görevi tamamla."
+        ],
+        "slot": 12
+      }
+    },
+    {
+      "name": "Farmer",
+      "levels": {
+        "1": {
+          "crystalReward": 1,
+          "vaultReward": 10000,
+          "amount": 50,
+          "type": "BLOCK_BREAK",
+          "conditions": [
+            "RIPE"
+          ]
+        },
+        "2": {
+          "crystalReward": 5,
+          "vaultReward": 10000,
+          "amount": 100,
+          "type": "BLOCK_BREAK",
+          "conditions": [
+            "RIPE"
+          ]
+        },
+        "3": {
+          "crystalReward": 10,
+          "vaultReward": 10000,
+          "amount": 500,
+          "type": "BLOCK_BREAK",
+          "conditions": [
+            "RIPE"
+          ]
+        },
+        "4": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 1000,
+          "type": "BLOCK_BREAK",
+          "conditions": [
+            "RIPE"
+          ]
+        },
+        "5": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 5000,
+          "type": "BLOCK_BREAK",
+          "conditions": [
+            "RIPE"
+          ]
+        }
+      },
+      "item": {
+        "material": "SUGAR_CANE",
+        "amount": 1,
+        "title": "&b&lTarım Seviyesi {level}",
+        "lore": [
+          "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+          "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
+          "",
+          "&b&lBilgi:",
+          "&b&l * &7Amaç: &b{amount} Bitki Hasat Et",
+          "&b&l * &7Şu anki durum: &b{status}",
+          "&b&l * &7Ödül: &b{crystalsReward} Ada Kristalleri ve ${vaultReward}",
+          "",
+          "&b&l[!] &bÖdüller için bu görevi tamamla."
+        ],
+        "slot": 13
+      }
+    },
+    {
+      "name": "Hunter",
+      "levels": {
+        "1": {
+          "crystalReward": 1,
+          "vaultReward": 10000,
+          "amount": 10,
+          "type": "ENTITY_KILL",
+          "conditions": []
+        },
+        "2": {
+          "crystalReward": 5,
+          "vaultReward": 10000,
+          "amount": 50,
+          "type": "ENTITY_KILL",
+          "conditions": []
+        },
+        "3": {
+          "crystalReward": 10,
+          "vaultReward": 10000,
+          "amount": 100,
+          "type": "ENTITY_KILL",
+          "conditions": []
+        },
+        "4": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 500,
+          "type": "ENTITY_KILL",
+          "conditions": []
+        },
+        "5": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 1000,
+          "type": "ENTITY_KILL",
+          "conditions": []
+        }
+      },
+      "item": {
+        "material": "BLAZE_POWDER",
+        "amount": 1,
+        "title": "&b&lAvcı Seviyesi {level}",
+        "lore": [
+          "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+          "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
+          "",
+          "&b&lBilgi:",
+          "&b&l * &7Amaç: &b{amount} Mob öldür",
+          "&b&l * &7Şu anki durum: &b{status}",
+          "&b&l * &7Ödül: &b{crystalsReward} Ada Kristalleri ve ${vaultReward}",
+          "",
+          "&b&l[!] &bÖdüller için bu görevi tamamla."
+        ],
+        "slot": 14
+      }
+    },
+    {
+      "name": "Fisherman",
+      "levels": {
+        "1": {
+          "crystalReward": 1,
+          "vaultReward": 10000,
+          "amount": 5,
+          "type": "FISH_CATCH",
+          "conditions": []
+        },
+        "2": {
+          "crystalReward": 5,
+          "vaultReward": 10000,
+          "amount": 10,
+          "type": "FISH_CATCH",
+          "conditions": []
+        },
+        "3": {
+          "crystalReward": 10,
+          "vaultReward": 10000,
+          "amount": 50,
+          "type": "FISH_CATCH",
+          "conditions": []
+        },
+        "4": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 100,
+          "type": "FISH_CATCH",
+          "conditions": []
+        },
+        "5": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 500,
+          "type": "FISH_CATCH",
+          "conditions": []
+        }
+      },
+      "item": {
+        "material": "FISHING_ROD",
+        "amount": 1,
+        "title": "&b&lBalıkçı Seviyesi {level}",
+        "lore": [
+          "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+          "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
+          "",
+          "&b&lInformation:",
+          "&b&l * &7Amaç: &b{amount} Balık Tut",
+          "&b&l * &7Şu anki durum: &b{status}",
+          "&b&l * &7Ödül: &b{crystalsReward} Ada Kristalleri ve ${vaultReward}",
+          "",
+          "&b&l[!] &bÖdüller için bu görevi tamamla."
+        ],
+        "slot": 15
+      }
+    },
+    {
+      "name": "Builder",
+      "levels": {
+        "1": {
+          "crystalReward": 1,
+          "vaultReward": 10000,
+          "amount": 100,
+          "type": "BLOCK_PLACE",
+          "conditions": []
+        },
+        "2": {
+          "crystalReward": 5,
+          "vaultReward": 10000,
+          "amount": 500,
+          "type": "BLOCK_PLACE",
+          "conditions": []
+        },
+        "3": {
+          "crystalReward": 10,
+          "vaultReward": 10000,
+          "amount": 1000,
+          "type": "BLOCK_PLACE",
+          "conditions": []
+        },
+        "4": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 5000,
+          "type": "BLOCK_PLACE",
+          "conditions": []
+        },
+        "5": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 10000,
+          "type": "BLOCK_PLACE",
+          "conditions": []
+        },
+        "6": {
+          "crystalReward": 15,
+          "vaultReward": 10000,
+          "amount": 50000,
+          "type": "BLOCK_PLACE",
+          "conditions": []
+        }
+      },
+      "item": {
+        "material": "COBBLESTONE",
+        "amount": 1,
+        "title": "&b&lBuilder Seviyesi {level}",
+        "lore": [
+          "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+          "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
+          "",
+          "&b&lInformation:",
+          "&b&l * &7Objective: &b{amount} Blok yerleştir",
+          "&b&l * &7Şu anki durum: &b{status}",
+          "&b&l * &7Ödül: &b{crystalsReward} Ada Kristalleri ve ${vaultReward}",
+          "",
+          "&b&l[!] &bÖdüller için bu görevi tamamla."
+        ],
+        "slot": 16
+      }
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "upgradeGUITitle": "&7Fejlesztés",
+  "boosterGUITitle": "&7Turbózás",
+  "confirmationGUITitle": "&7Biztos?",
+  "missionsGUITitle": "&7Küldetések",
+  "membersGUITitle": "&7Tagok",
+  "coopGUITitle": "&7Co-op szigetek",
+  "islandMenuGUITitle": "&7Menü",
+  "warpGUITitle": "&7Warpok",
+  "topGUITitle": "&7Top Szigetek",
+  "borderColorGUITitle": "&7WorldBorder szín",
+  "permissionsGUITitle": "&7Jogosultságok",
+  "schematicselectGUITitle": "&7Válassz egy szigetet",
+  "bankGUITitle": "&7Sziget bank",
+  "visitGUITitle": "&7Látogass meg egy szigetet",
+  "shopGUITitle": "&7Bolt",
+  "biomeGUITitle": "&7Sziget biomeja",
+  "upgradeGUISize": 27,
+  "boosterGUISize": 27,
+  "missionsGUISize": 27,
+  "membersGUISize": 27,
+  "coopGUISize": 27,
+  "islandMenuGUISize": 45,
+  "warpGUISize": 27,
+  "topGUISize": 27,
+  "borderColorGUISize": 27,
+  "permissionsGUISize": 27,
+  "schematicselectGUISize": 27,
+  "bankGUISize": 27,
+  "visitGUISize": 54,
+  "shopGUISize": 54,
+  "biomeGUISize": 54,
+  "spawner": {
+    "material": "SPAWNER",
+    "amount": 1,
+    "title": "&b&lSpawner fejlesztés",
+    "lore": [
+      "&7Túl lassan spawnolnak a szörnyek? Vedd meg ezt!",
+      "&7dupla olyan gyorsan fognak jönni.",
+      "",
+      "&b&lInformáció:",
+      "&b&l * &7Hátra maradt idő: &b{spawnerbooster_minutes} perc és {spawnerbooster_seconds} másodperc",
+      "&b&l * &7Turbózás ára: &b{spawnerbooster_crystalcost} sziget kristály és {spawnerbooster_vaultcost} dollár",
+      "",
+      "&b&l[!] &bJobb klikk a vásárláshoz"
+    ]
+  },
+  "farming": {
+    "material": "WHEAT",
+    "amount": 1,
+    "title": "&b&lVeteményes fejlesztés",
+    "lore": [
+      "&7Túl lassan nőnek a növényeid? Vedd meg ezt!",
+      "&7dupla olyan gyorsan fognak nőni.",
+      "",
+      "&b&lInformáció:",
+      "&b&l * &7Hátra maradt idő: &b{farmingbooster_minutes} perc és {farmingbooster_seconds} másodperc",
+      "&b&l * &7Turbózás ára: &b{farmingbooster_crystalcost} sziget kristály és ${farmingbooster_vaultcost} dollár",
+      "",
+      "&b&l[!] &bJobb klikk a vásárláshoz."
+    ]
+  },
+  "exp": {
+    "material": "EXPERIENCE_BOTTLE",
+    "amount": 1,
+    "title": "&b&lXp fejlesztés",
+    "lore": [
+      "&7Túl lassan kapod az XP szinteket? Vedd meg ezt!",
+      "&7duplájára növeli az XP értékét",
+      "",
+      "&b&lInformáció:",
+      "&b&l * &7Hátra maradt idő: &b{expbooster_minutes} perc és {expbooster_seconds} másodperc",
+      "&b&l * &7Turbózás ára: &b{expbooster_crystalcost} sziget kristály és {expbooster_vaultcost} dollár",
+      "",
+      "&b&l[!] &bJobb klikk a vásárláshoz"
+    ]
+  },
+  "flight": {
+    "material": "FEATHER",
+    "amount": 1,
+    "title": "&b&lRepülés",
+    "lore": [
+      "&7Meguntad hogy mindíg leesel a szigetedről? Vedd meg ezt!",
+      "&7engedélyezi a repülést mindenkinek a szigeten",
+      "",
+      "&b&lInformáció:",
+      "&b&l * &7Hátra maradt idő: &b{expbooster_minutes} perc és {expbooster_seconds} másodperc",
+      "&b&l * &7Turbózás ára: &b{expbooster_crystalcost} sziget kristály és {expbooster_vaultcost} dollár",
+      "",
+      "&b&l[!] &bJobb klikk a vásárláshoz"
+    ]
+  },
+  "size": {
+    "material": "GRASS_BLOCK",
+    "amount": 1,
+    "title": "&b&lSziget mérete",
+    "lore": [
+      "&7Nem férsz el? Vedd meg ezt!",
+      "&7megnöveli a szigeted területét",
+      "",
+      "&b&lInformáció:",
+      "&b&l * &7Jelenlegi szint: &b{sizelevel}",
+      "&b&l * &7Jelenlegi méret: &b{sizeblocks}x{sizeblocks} Kocka",
+      "&b&l * &7Fejlesztés ára: &b{sizecrystalscost} sziget kristály és {sizevaultcost} dollár",
+      "&b&lSzintek:",
+      "&b&l * &7Szint 1: &b50x50 Kocka",
+      "&b&l * &7Szint 2: &b100x100 Kocka",
+      "&b&l * &7Szint 3: &b150x150 Kocka",
+      "",
+      "&b&l[!] &bBal klikk a vásárláshoz"
+    ]
+  },
+  "member": {
+    "material": "ARMOR_STAND",
+    "amount": 1,
+    "title": "&b&lTagok száma",
+    "lore": [
+      "&7Több tagra van szükséged? Vedd meg ezt!",
+      "&7több férőhelyes lesz a szigeted",
+      "",
+      "&b&lInformáció:",
+      "&b&l * &7Jelenlegi szint: &b{memberlevel}",
+      "&b&l * &7Jelenlegi tagok száma: &b{membercount} Tag",
+      "&b&l * &7Fejlesztés ára: &b{sizecrystalscost} sziget kristály és {sizevaultcost} dollár",
+      "&b&lSzintek:",
+      "&b&l * &7Szint 1: &b9 Tag",
+      "&b&l * &7Szint 2: &b18 Tag",
+      "&b&l * &7Szint 3: &b27 Tag",
+      "",
+      "&b&l[!] &bBal klikk a vásárláshoz"
+    ]
+  },
+  "warp": {
+    "material": "END_PORTAL_FRAME",
+    "amount": 1,
+    "title": "&b&lSziget warpok",
+    "lore": [
+      "&7Több warpra van szükséged? Vedd meg ezt!",
+      "&7növeli a max warpok számát",
+      "",
+      "&b&lInformáció:",
+      "&b&l * &7Jelenlegi szint: &b{warplevel}",
+      "&b&l * &7Jelenlegi warpok száma: &b{warpcount}",
+      "&b&l * &7Fejlesztés ára: &b{warpcrystalscost} sziget kristály és {warpvaultcost} dollár.",
+      "&b&lSzintek:",
+      "&b&l * &7Szint 1: &b2 Warp",
+      "&b&l * &7Szint 2: &b5 Warp",
+      "&b&l * &7Szint 3: &b9 Warp",
+      "",
+      "&b&l[!] &bBal klikk a vásárláshoz"
+    ]
+  },
+  "ores": {
+    "material": "DIAMOND_ORE",
+    "amount": 1,
+    "title": "&b&lÉrc generátor",
+    "lore": [
+      "&7Fejlesztenéd a generátorod? Vedd meg ezt!",
+      "&7fejleszti a generátort.",
+      "",
+      "&b&lInformáció:",
+      "&b&l * &7Jelenlegi szint: &b{oreslevel}",
+      "&b&l * &7Fejlesztés ára: &b{orescrystalscost} sziget kristály és {oresvaultcost} dollár.",
+      "",
+      "&b&l[!] &bBal klikk a vásárláshoz"
+    ]
+  },
+  "experience": {
+    "material": "EXPERIENCE_BOTTLE",
+    "amount": 1,
+    "title": "&b&lSziget tapasztalat",
+    "lore": [
+      "&7{experience} Tapasztalat",
+      "&b&l[!] &bBal klikk a felvételhez",
+      "&b&l[!] &bJobb klikk a letéthez"
+    ],
+    "slot": 11
+  },
+  "crystals": {
+    "material": "NETHER_STAR",
+    "amount": 1,
+    "title": "&b&lSziget kristály",
+    "lore": [
+      "&7{crystals} kristály",
+      "&b&l[!] &bBal klikk a felvételhez",
+      "&b&l[!] &bJobb klikk a letéthez"
+    ],
+    "slot": 13
+  },
+  "money": {
+    "material": "PAPER",
+    "amount": 1,
+    "title": "&b&lSziget egyenleg",
+    "lore": [
+      "&7${money}",
+      "&b&l[!] &bBal klikk a felvételhez",
+      "&b&l[!] &bJobb klikk a letéthez"
+    ],
+    "slot": 15
+  },
+  "crystal": {
+    "material": "NETHER_STAR",
+    "amount": 1,
+    "title": "&b*** &b&lSziget kristály &b***",
+    "lore": [
+      "",
+      "&b&l[!] &bA beválltáshoz menj a sziget bankba"
+    ]
+  },
+  "background": {
+    "material": "BLACK_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": " ",
+    "lore": []
+  },
+  "nextPage": {
+    "material": "LIME_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&a&lKövetkező oldal",
+    "lore": []
+  },
+  "previousPage": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&c&lElőző oldal",
+    "lore": []
+  },
+  "biome": {
+    "material": "GRASS_BLOCK",
+    "amount": 1,
+    "title": "&b&l{biome} Biome",
+    "lore": []
+  },
+  "back": {
+    "material": "NETHER_STAR",
+    "amount": 1,
+    "title": "&c&lVissza",
+    "lore": []
+  },
+  "islandmember": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&bRole: {role}",
+      "",
+      "&b&l[!] &bBal klikk a lefokozáshoz {demote}.",
+      "&b&l[!] &bJobb klikk a kinevezéshez."
+    ]
+  },
+  "islandcoop": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&b&l * &7Sziget: &b{name}",
+      "&b&l * &7Rang: &b{rank}",
+      "&b&l * &7Érték: &b{value}",
+      "",
+      "&b&l[!] &bBal klikk a teleportáláshoz",
+      "&b&l[!] &bJobb klikk a co-op feloszlatásához."
+    ]
+  },
+  "islandRoles": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&l{role}",
+    "lore": []
+  },
+  "islandPermissionAllow": {
+    "material": "LIME_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&l{permission}",
+    "lore": []
+  },
+  "islandPermissionDeny": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&l{permission}",
+    "lore": []
+  },
+  "islandWarp": {
+    "material": "YELLOW_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&l{warp}",
+    "lore": [
+      "",
+      "&b&l[!] &bBal klikk az ide való teleportáláshoz",
+      "&b&l[!] &bJobb klikk a warp törléséhez"
+    ]
+  },
+  "topisland": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&b&l * &7Sziget: &b{name}",
+      "",
+      "&b&l * &7Emeráld kockák: &b{EMERALD_BLOCK_amount}",
+      "&b&l * &7Gyémánt kockák: &b{DIAMOND_BLOCK_amount}",
+      "&b&l * &7Arany kockák: &b{GOLD_BLOCK_amount}",
+      "&b&l * &7Vas kockák: &b{IRON_BLOCK_amount}",
+      "&b&l * &7Tölcsér kockák: &b{HOPPER_amount}",
+      "&b&l * &7Jelzőfény kockák:: &b{BEACON_amount}",
+      "",
+      "&b&l * &7Rang: &b{rank}",
+      "&b&l * &7Érték: &b{value}",
+      "",
+      "&b&l[!] &bBal klikk az ide való teleportáláshoz"
+    ]
+  },
+  "visitisland": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&b&l * &7Sziget: &b{name}",
+      "&b&l * &7Rang: &b{rank}",
+      "&b&l * &7Érték: &b{value}",
+      "&b&l * &7Szavazatok: &b{votes}",
+      "",
+      "&b&l[!] &bBal klikk az ide való teleportáláshoz",
+      "&b&l[!] &bJobb klikk a szavazat vissza vonásához"
+    ]
+  },
+  "red": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&c&lPiros",
+    "lore": []
+  },
+  "green": {
+    "material": "LIME_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&a&lZöld",
+    "lore": []
+  },
+  "blue": {
+    "material": "BLUE_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&lKék",
+    "lore": []
+  },
+  "off": {
+    "material": "WHITE_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&f&lFehér",
+    "lore": []
+  },
+  "menu": [
+    [
+      {
+        "material": "EXPERIENCE_BOTTLE",
+        "amount": 1,
+        "title": "&b&lIsland Turbózás",
+        "lore": [
+          "&7Turbózd fel a szigeted."
+        ],
+        "slot": 23
+      },
+      "is booster"
+    ],
+    [
+      {
+        "material": "GRASS_BLOCK",
+        "amount": 1,
+        "title": "&b&lSziget újragenerálása",
+        "lore": [
+          "&7Újragenerálja a szigetedet."
+        ],
+        "slot": 36
+      },
+      "is regen"
+    ],
+    [
+      {
+        "material": "DIAMOND",
+        "amount": 1,
+        "title": "&b&lLegjobb szigetek",
+        "lore": [
+          "&7Sziget toplista."
+        ],
+        "slot": 0
+      },
+      "is top"
+    ],
+    [
+      {
+        "material": "NAME_TAG",
+        "amount": 1,
+        "title": "&b&lSziget Co-op",
+        "lore": [
+          "&7Nézd meg a Co-op szigeteidet"
+        ],
+        "slot": 32
+      },
+      "is coop"
+    ],
+    [
+      {
+        "material": "BARRIER",
+        "amount": 1,
+        "title": "&b&lSziget törlése",
+        "lore": [
+          "&7Törli a szigetedet"
+        ],
+        "slot": 44
+      },
+      "is delete"
+    ],
+    [
+      {
+        "material": "IRON_SWORD",
+        "amount": 1,
+        "title": "&b&lKüldetések",
+        "lore": [
+          "&7Nézd meg a küldetéseket"
+        ],
+        "slot": 22
+      },
+      "is missions"
+    ],
+    [
+      {
+        "material": "GOLD_INGOT",
+        "amount": 1,
+        "title": "&b&lSziget bank",
+        "lore": [
+          "&7Nézd meg mennyid van a bankban"
+        ],
+        "slot": 30
+      },
+      "is bank"
+    ],
+    [
+      {
+        "material": "PLAYER_HEAD",
+        "amount": 1,
+        "title": "&b&lSziget fejlesztés",
+        "headOwner": "ABigDwarf",
+        "lore": [
+          "&7Fejleszti a szigetedet"
+        ],
+        "slot": 21
+      },
+      "is upgrade"
+    ],
+    [
+      {
+        "material": "BOOK",
+        "amount": 1,
+        "title": "&b&lJogosultságok",
+        "lore": [
+          "&7Megválltoztatja a sziget jogosultságokat"
+        ],
+        "slot": 31
+      },
+      "is permissions"
+    ],
+    [
+      {
+        "material": "PLAYER_HEAD",
+        "amount": 1,
+        "title": "&b&lSziget tagjai",
+        "headOwner": "Peaches_MLG",
+        "lore": [
+          "&7Nézd meg a szigeted tagjait"
+        ],
+        "slot": 14
+      },
+      "is members"
+    ],
+    [
+      {
+        "material": "WHITE_BED",
+        "amount": 1,
+        "title": "&b&lSzigethez való teleportálás",
+        "lore": [
+          "&7Térj vissza szigetedre"
+        ],
+        "slot": 13
+      },
+      "is home"
+    ],
+    [
+      {
+        "material": "END_PORTAL_FRAME",
+        "amount": 1,
+        "title": "&b&lSziget warpok",
+        "lore": [
+          "&7Nézd meg warpjaid"
+        ],
+        "slot": 20
+      },
+      "is warps"
+    ],
+    [
+      {
+        "material": "PLAYER_HEAD",
+        "amount": 1,
+        "title": "&b&lSziget biome",
+        "headOwner": "BlockminersTV",
+        "lore": [
+          "&7Válltoztasd meg a szigeted biome-ját"
+        ],
+        "slot": 12
+      },
+      "is biome"
+    ],
+    [
+      {
+        "material": "BEACON",
+        "amount": 1,
+        "title": "&b&lSziget WorldBorder",
+        "lore": [
+          "&7Válltoztasd meg szigeted WorldBorder-ét."
+        ],
+        "slot": 24
+      },
+      "is border"
+    ]
+  ]
+}

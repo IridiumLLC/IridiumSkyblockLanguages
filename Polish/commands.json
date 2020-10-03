@@ -1,0 +1,418 @@
+{
+  "createCommand": {
+    "player": true,
+    "aliases": [
+      "create"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Stwórz nową wyspe",
+    "enabled": true
+  },
+  "homeCommand": {
+    "player": true,
+    "aliases": [
+      "home"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Przenieś się na swoją wyspe",
+    "enabled": true
+  },
+  "deleteCommand": {
+    "player": true,
+    "aliases": [
+      "delete"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Usuń swoją wyspe",
+    "enabled": true
+  },
+  "reloadCommand": {
+    "player": false,
+    "aliases": [
+      "reload"
+    ],
+    "permission": "iridiumskyblock.reload",
+    "description": "Przeładuj konfiguracje",
+    "enabled": true
+  },
+  "regenCommand": {
+    "player": true,
+    "aliases": [
+      "regen",
+      "reset"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Regeneruj swoją wyspe",
+    "enabled": true
+  },
+  "inviteCommand": {
+    "player": true,
+    "aliases": [
+      "invite"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Zaproś gracza na swoją wyspe",
+    "enabled": true
+  },
+  "joinCommand": {
+    "player": true,
+    "aliases": [
+      "join"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Dołącz do czyjejś wyspy",
+    "enabled": true
+  },
+  "missionsCommand": {
+    "player": true,
+    "aliases": [
+      "missions"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Otwórz GUI z misjami",
+    "enabled": true
+  },
+  "upgradeCommand": {
+    "player": true,
+    "aliases": [
+      "upgrade"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Otwórz GUI z ulepszeniami",
+    "enabled": true
+  },
+  "boosterCommand": {
+    "player": true,
+    "aliases": [
+      "booster"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Otwórz GUI z boosterami",
+    "enabled": true
+  },
+  "crystalsCommand": {
+    "player": true,
+    "aliases": [
+      "crystals"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Sprawdź ile masz kryształów",
+    "enabled": true
+  },
+  "giveCrystalsCommand": {
+    "player": false,
+    "aliases": [
+      "givecrystals"
+    ],
+    "permission": "iridiumskyblock.givecrystals",
+    "description": "Daj graczowi kryształy",
+    "enabled": true
+  },
+  "removeCrystalsCommand": {
+    "player": false,
+    "aliases": [
+      "removecrystals"
+    ],
+    "permission": "iridiumskyblock.removecrystals",
+    "description": "Usuń graczowi kryształy",
+    "enabled": true
+  },
+  "membersCommand": {
+    "player": true,
+    "aliases": [
+      "members",
+      "users",
+      "list"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Zobacz członków swojej wyspy",
+    "enabled": true
+  },
+  "flyCommand": {
+    "player": true,
+    "aliases": [
+      "fly",
+      "flight"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Włącz i wyłącz latanie",
+    "enabled": true
+  },
+  "aboutCommand": {
+    "player": false,
+    "aliases": [
+      "about",
+      "version"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Displays plugin info",
+    "enabled": true
+  },
+  "warpsCommand": {
+    "player": true,
+    "aliases": [
+      "warps"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Otwórz GUI z warpami",
+    "enabled": true
+  },
+  "warpCommand": {
+    "player": true,
+    "aliases": [
+      "setwarp",
+      "addwarp"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Stwórz nowy warp na wyspie",
+    "enabled": true
+  },
+  "valueCommand": {
+    "player": true,
+    "aliases": [
+      "value"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Pokaż wartość wyspy",
+    "enabled": true
+  },
+  "topCommand": {
+    "player": true,
+    "aliases": [
+      "top"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Wyświetl TOP wysp",
+    "enabled": true
+  },
+  "leaveCommand": {
+    "player": true,
+    "aliases": [
+      "leave"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Opuść wyspe",
+    "enabled": true
+  },
+  "worldBorderCommand": {
+    "player": true,
+    "aliases": [
+      "border",
+      "worldborder",
+      "color",
+      "colour"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Otwórz WorldBorder GUI",
+    "enabled": true
+  },
+  "kickCommand": {
+    "player": true,
+    "aliases": [
+      "kick"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Wyrzuć gracza z wyspy",
+    "enabled": true
+  },
+  "visitCommand": {
+    "player": true,
+    "aliases": [
+      "visit"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Odwiedź wyspe innego gracza",
+    "enabled": true
+  },
+  "publicCommand": {
+    "player": true,
+    "aliases": [
+      "public"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Pozwól graczom odwiedzać twoją wyspe",
+    "enabled": true
+  },
+  "privateCommand": {
+    "player": true,
+    "aliases": [
+      "private"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Nie pozwalaj graczom odwiedzać twoją wyspe",
+    "enabled": true
+  },
+  "bypassCommand": {
+    "player": true,
+    "aliases": [
+      "bypass"
+    ],
+    "permission": "iridiumskyblock.bypass",
+    "description": "Omija zakazy wyspy",
+    "enabled": true
+  },
+  "setHomeCommand": {
+    "player": true,
+    "aliases": [
+      "sethome"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Ustaw home na wyspie",
+    "enabled": true
+  },
+  "permissionsCommand": {
+    "player": true,
+    "aliases": [
+      "permissions"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Edytuj uprawnienia wyspy",
+    "enabled": true
+  },
+  "transferCommand": {
+    "player": true,
+    "aliases": [
+      "transfer"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Ustaw właściciela wyspy",
+    "enabled": true
+  },
+  "adminCommand": {
+    "player": true,
+    "aliases": [
+      "admin"
+    ],
+    "permission": "iridiumskyblock.admin",
+    "description": "Kontroluj wyspe gracza",
+    "enabled": true
+  },
+  "giveBoosterCommand": {
+    "player": false,
+    "aliases": [
+      "givebooster"
+    ],
+    "permission": "iridiumskyblock.givebooster",
+    "description": "Daj boostera wyspie",
+    "enabled": true
+  },
+  "giveUpgradeCommand": {
+    "player": false,
+    "aliases": [
+      "giveupgrade"
+    ],
+    "permission": "iridiumskyblock.giveupgrade",
+    "description": "Daj upgrade wyspie",
+    "enabled": true
+  },
+  "banCommand": {
+    "player": true,
+    "aliases": [
+      "ban"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Zbanuj gracza na wyspie",
+    "enabled": true
+  },
+  "unBanCommand": {
+    "player": true,
+    "aliases": [
+      "unban"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Odbanuj gracza na wyspie",
+    "enabled": true
+  },
+  "coopCommand": {
+    "player": true,
+    "aliases": [
+      "coop"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Dodaj gracza do coop'a",
+    "enabled": true
+  },
+  "unCoopCommand": {
+    "player": true,
+    "aliases": [
+      "uncoop"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Usuń gracza z coop'a",
+    "enabled": true
+  },
+  "setNameCommand": {
+    "player": true,
+    "aliases": [
+      "setname"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Ustaw nazwe wyspy",
+    "enabled": true
+  },
+  "bankCommand": {
+    "player": true,
+    "aliases": [
+      "bank"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Otwórz GUI z bankiem",
+    "enabled": true
+  },
+  "chatCommand": {
+    "player": true,
+    "aliases": [
+      "chat"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Rozmawiaj z członkami twojej wyspy",
+    "enabled": true
+  },
+  "shopCommand": {
+    "player": true,
+    "aliases": [
+      "shop"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Otwórz sklep",
+    "enabled": true
+  },
+  "biomeCommand": {
+    "player": true,
+    "aliases": [
+      "biome"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Otwórz GUI z biomai",
+    "enabled": true
+  },
+  "helpCommand": {
+    "player": true,
+    "aliases": [
+      "help"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Wyświetl komendy",
+    "enabled": true
+  },
+  "updateCommand": {
+    "player": false,
+    "aliases": [
+      "update"
+    ],
+    "permission": "iridiumskyblock.update",
+    "description": "Ustaw level wyspy",
+    "enabled": true
+  },
+  "languagesCommand": {
+    "player": true,
+    "aliases": [
+      "language",
+      "languages",
+      "translate"
+    ],
+    "permission": "iridiumskyblock.language",
+    "description": "Zmień język",
+    "enabled": true
+  }
+}

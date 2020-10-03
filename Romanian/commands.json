@@ -1,0 +1,398 @@
+{
+  "createCommand": {
+    "player": true,
+    "aliases": [
+      "create"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Creaza o noua insula",
+    "enabled": true
+  },
+  "homeCommand": {
+    "player": true,
+    "aliases": [
+      "home"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Teleporteaza-te catre home-ul insulei",
+    "enabled": true
+  },
+  "deleteCommand": {
+    "player": true,
+    "aliases": [
+      "delete"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Sterge-ti insula",
+    "enabled": true
+  },
+  "reloadCommand": {
+    "player": false,
+    "aliases": [
+      "reload"
+    ],
+    "permission": "iridiumskyblock.reload",
+    "description": "Restarteaza configuratia",
+    "enabled": true
+  },
+  "regenCommand": {
+    "player": true,
+    "aliases": [
+      "regen",
+      "reset"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Regenereaza insula",
+    "enabled": true
+  },
+  "inviteCommand": {
+    "player": true,
+    "aliases": [
+      "invite"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Invita un jucator pe insula",
+    "enabled": true
+  },
+  "joinCommand": {
+    "player": true,
+    "aliases": [
+      "join"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Alaturate altei insule",
+    "enabled": true
+  },
+  "missionsCommand": {
+    "player": true,
+    "aliases": [
+      "missions"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Deschide meniul de misiuni",
+    "enabled": true
+  },
+  "upgradeCommand": {
+    "player": true,
+    "aliases": [
+      "upgrade"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Deschide meniul de upgradeuri",
+    "enabled": true
+  },
+  "boosterCommand": {
+    "player": true,
+    "aliases": [
+      "booster"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Deschide meniul de boostere",
+    "enabled": true
+  },
+  "crystalsCommand": {
+    "player": true,
+    "aliases": [
+      "crystals"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Arata cate cristale mai ai",
+    "enabled": true
+  },
+  "giveCrystalsCommand": {
+    "player": false,
+    "aliases": [
+      "givecrystals"
+    ],
+    "permission": "iridiumskyblock.givecrystals",
+    "description": "Daruieste cristale unui jucator",
+    "enabled": true
+  },
+  "removeCrystalsCommand": {
+    "player": false,
+    "aliases": [
+      "removecrystals"
+    ],
+    "permission": "iridiumskyblock.removecrystals",
+    "description": "Sterge cristalele unui jucator",
+    "enabled": true
+  },
+  "membersCommand": {
+    "player": true,
+    "aliases": [
+      "members",
+      "users",
+      "list"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Vezi cati membri ai pe insula",
+    "enabled": true
+  },
+  "flyCommand": {
+    "player": true,
+    "aliases": [
+      "fly",
+      "flight"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Activeaza abilitatea de a zbura",
+    "enabled": true
+  },
+  "aboutCommand": {
+    "player": false,
+    "aliases": [
+      "about",
+      "version"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Afiseaza informatii despre plugin",
+    "enabled": true
+  },
+  "warpsCommand": {
+    "player": true,
+    "aliases": [
+      "warps"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Deschide meniul de teleportari",
+    "enabled": true
+  },
+  "warpCommand": {
+    "player": true,
+    "aliases": [
+      "setwarp",
+      "addwarp"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Seteaza un nou warp al insulei",
+    "enabled": true
+  },
+  "valueCommand": {
+    "player": true,
+    "aliases": [
+      "value"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Arata valoarea insulei",
+    "enabled": true
+  },
+  "topCommand": {
+    "player": true,
+    "aliases": [
+      "top"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Vezi topul insulelor",
+    "enabled": true
+  },
+  "leaveCommand": {
+    "player": true,
+    "aliases": [
+      "leave"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Paraseste o insula",
+    "enabled": true
+  },
+  "worldBorderCommand": {
+    "player": true,
+    "aliases": [
+      "border",
+      "worldborder",
+      "color",
+      "colour"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Deschide meniul borderului",
+    "enabled": true
+  },
+  "kickCommand": {
+    "player": true,
+    "aliases": [
+      "kick"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Da afara un jucator de pe insula",
+    "enabled": true
+  },
+  "visitCommand": {
+    "player": true,
+    "aliases": [
+      "visit"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Viziteaza insula altui jucator",
+    "enabled": true
+  },
+  "publicCommand": {
+    "player": true,
+    "aliases": [
+      "public"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Permite jucatorilor sa iti viziteze insula",
+    "enabled": true
+  },
+  "privateCommand": {
+    "player": true,
+    "aliases": [
+      "private"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Opreste jucatorii din a iti vizita insula",
+    "enabled": true
+  },
+  "bypassCommand": {
+    "player": true,
+    "aliases": [
+      "bypass"
+    ],
+    "permission": "iridiumskyblock.bypass",
+    "description": "Sari peste toate permisiunile insulei",
+    "enabled": true
+  },
+  "setHomeCommand": {
+    "player": true,
+    "aliases": [
+      "sethome"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Seteaza home-ul insulei",
+    "enabled": true
+  },
+  "permissionsCommand": {
+    "player": true,
+    "aliases": [
+      "permissions"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Modifica permisiunile insulei",
+    "enabled": true
+  },
+  "transferCommand": {
+    "player": true,
+    "aliases": [
+      "transfer"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Transfera proprietatea altui jucator",
+    "enabled": true
+  },
+  "adminCommand": {
+    "player": true,
+    "aliases": [
+      "admin"
+    ],
+    "permission": "iridiumskyblock.admin",
+    "description": "Controleaza insula altui jucator",
+    "enabled": true
+  },
+  "giveBoosterCommand": {
+    "player": false,
+    "aliases": [
+      "givebooster"
+    ],
+    "permission": "iridiumskyblock.givebooster",
+    "description": "Daruieste un booster unui jucator",
+    "enabled": true
+  },
+  "giveUpgradeCommand": {
+    "player": false,
+    "aliases": [
+      "giveupgrade"
+    ],
+    "permission": "iridiumskyblock.giveupgrade",
+    "description": "Da un upgrade insulei",
+    "enabled": true
+  },
+  "banCommand": {
+    "player": true,
+    "aliases": [
+      "ban"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Interzice unui jucător să viziteze insula ta",
+    "enabled": true
+  },
+  "unBanCommand": {
+    "player": true,
+    "aliases": [
+      "unban"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Debaneaza un jucator sa viziteze insula ta",
+    "enabled": true
+  },
+  "coopCommand": {
+    "player": true,
+    "aliases": [
+      "coop"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Coopereaza cu o insula",
+    "enabled": true
+  },
+  "unCoopCommand": {
+    "player": true,
+    "aliases": [
+      "uncoop"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Revocă un coop de Insule",
+    "enabled": true
+  },
+  "setNameCommand": {
+    "player": true,
+    "aliases": [
+      "setname"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Seteaza numele insulei",
+    "enabled": true
+  },
+  "bankCommand": {
+    "player": true,
+    "aliases": [
+      "bank"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Deschida banca",
+    "enabled": true
+  },
+  "chatCommand": {
+    "player": true,
+    "aliases": [
+      "chat"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Vorbeste cu membrii insulei",
+    "enabled": true
+  },
+  "shopCommand": {
+    "player": true,
+    "aliases": [
+      "shop"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Deschide shop-ul skyblock-ului",
+    "enabled": true
+  },
+  "biomeCommand": {
+    "player": true,
+    "aliases": [
+      "biome"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Deschide meniul de biom-uri",
+    "enabled": true
+  },
+  "helpCommand": {
+    "player": true,
+    "aliases": [
+      "help"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Afiseaza comenzile pluginului",
+    "enabled": true
+  }
+}

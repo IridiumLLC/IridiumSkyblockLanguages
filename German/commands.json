@@ -1,0 +1,418 @@
+{
+  "createCommand": {
+    "aliases": [
+      "create"
+    ],
+    "description": "Erstell eine neue Insel",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "homeCommand": {
+    "aliases": [
+      "home"
+    ],
+    "description": "Teleportiert dich zu deiner Insel",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "deleteCommand": {
+    "aliases": [
+      "delete"
+    ],
+    "description": "Löscht deine Insel",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "reloadCommand": {
+    "aliases": [
+      "reload"
+    ],
+    "description": "Lädt die Konfiguration neu",
+    "permission": "iridiumskyblock.reload",
+    "player": false,
+    "enabled": true
+  },
+  "regenCommand": {
+    "aliases": [
+      "regen",
+      "reset"
+    ],
+    "description": "Resetet deine Insel",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "inviteCommand": {
+    "aliases": [
+      "invite"
+    ],
+    "description": "Ladet einen Spieler zu deiner Insel ein",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "joinCommand": {
+    "aliases": [
+      "join"
+    ],
+    "description": "Trete einer Insel eines anderen Spielers bei",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "missionsCommand": {
+    "aliases": [
+      "missions"
+    ],
+    "description": "Öffnet das Missionsmenü",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "upgradeCommand": {
+    "aliases": [
+      "upgrade"
+    ],
+    "description": "Öffnet das Upgrademenü",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "boosterCommand": {
+    "aliases": [
+      "booster"
+    ],
+    "description": "Öffnet das Boostermenü",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "crystalsCommand": {
+    "aliases": [
+      "crystals"
+    ],
+    "description": "Zeigt dir wieviele Diamanten du hast",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "giveCrystalsCommand": {
+    "aliases": [
+      "givecrystals"
+    ],
+    "description": "Gib einem Spieler Diamanten",
+    "permission": "iridiumskyblock.givecrystals",
+    "player": false,
+    "enabled": true
+  },
+  "removeCrystalsCommand": {
+    "aliases": [
+      "removecrystals"
+    ],
+    "description": "Nimm einem Spieler Diamanten weg",
+    "permission": "iridiumskyblock.removecrystals",
+    "player": false,
+    "enabled": true
+  },
+  "membersCommand": {
+    "aliases": [
+      "members",
+      "users",
+      "list"
+    ],
+    "description": "Zeigt deine Inselmitglieder",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "flyCommand": {
+    "aliases": [
+      "fly",
+      "flight"
+    ],
+    "description": "Schaltet den Flugmodus ein oder aus",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "aboutCommand": {
+    "aliases": [
+      "about",
+      "version"
+    ],
+    "description": "Zeigt Plugininfos",
+    "permission": "",
+    "player": false,
+    "enabled": true
+  },
+  "warpsCommand": {
+    "aliases": [
+      "warps"
+    ],
+    "description": "Öffnet das Warpmenü",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "warpCommand": {
+    "aliases": [
+      "setwarp",
+      "addwarp"
+    ],
+    "description": "Setzt einen neuen Inselwarp",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "valueCommand": {
+    "aliases": [
+      "value"
+    ],
+    "description": "Zeigt dein Insellevel",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "topCommand": {
+    "aliases": [
+      "top"
+    ],
+    "description": "Zeigt die Top Inseln",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "leaveCommand": {
+    "aliases": [
+      "leave"
+    ],
+    "description": "Verlasse eine Insel",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "worldBorderCommand": {
+    "aliases": [
+      "border",
+      "worldborder",
+      "color",
+      "colour"
+    ],
+    "description": "Öffnet das Worldbordermenü",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "kickCommand": {
+    "aliases": [
+      "kick"
+    ],
+    "description": "Wirft einen Spieler von deiner Insel",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "visitCommand": {
+    "aliases": [
+      "visit"
+    ],
+    "description": "Besuche die Insel eines anderen Spielers",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "publicCommand": {
+    "aliases": [
+      "public"
+    ],
+    "description": "Erlaubt einem Spieler deine Insel zu besuchen",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "privateCommand": {
+    "aliases": [
+      "private"
+    ],
+    "description": "Verbietet Spielern das Besuchen deiner Insel",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "bypassCommand": {
+    "aliases": [
+      "bypass"
+    ],
+    "description": "Umgeht alle Beschränkungen",
+    "permission": "iridiumskyblock.bypass",
+    "player": true,
+    "enabled": true
+  },
+  "setHomeCommand": {
+    "aliases": [
+      "sethome"
+    ],
+    "description": "Setz deinen Inselhome",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "permissionsCommand": {
+    "aliases": [
+      "permissions"
+    ],
+    "description": "Bearbeite die Inselberechtigungen",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "transferCommand": {
+    "aliases": [
+      "transfer"
+    ],
+    "description": "Übertrage die Insel an einen neuen Besitzer",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "adminCommand": {
+    "aliases": [
+      "admin"
+    ],
+    "description": "Kontrolliere die Insel eines Spielers",
+    "permission": "iridiumskyblock.admin",
+    "player": true,
+    "enabled": true
+  },
+  "giveBoosterCommand": {
+    "aliases": [
+      "givebooster"
+    ],
+    "description": "Erhalte einen Inselbooster",
+    "permission": "iridiumskyblock.givebooster",
+    "player": false,
+    "enabled": true
+  },
+  "giveUpgradeCommand": {
+    "aliases": [
+      "giveupgrade"
+    ],
+    "description": "Erhalte ein Inselupgrade",
+    "permission": "iridiumskyblock.giveupgrade",
+    "player": false,
+    "enabled": true
+  },
+  "banCommand": {
+    "aliases": [
+      "ban"
+    ],
+    "description": "Bannt einen Spieler von deiner Insel",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "unBanCommand": {
+    "aliases": [
+      "unban"
+    ],
+    "description": "Entbannt einen Spieler von deiner Insel",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "coopCommand": {
+    "aliases": [
+      "coop"
+    ],
+    "description": "Vertraut einem Spieler auf deiner Insel",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "unCoopCommand": {
+    "aliases": [
+      "uncoop"
+    ],
+    "description": "Einem Spieler auf deiner Insel nicht mehr vertrauen",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "setNameCommand": {
+    "aliases": [
+      "setname"
+    ],
+    "description": "Ändert den Namen deiner Insel",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "bankCommand": {
+    "aliases": [
+      "bank"
+    ],
+    "description": "Öfnnet das Bankmenü",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "chatCommand": {
+    "aliases": [
+      "chat"
+    ],
+    "description": "Spreche mit deinen Inselmitgliedern",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "shopCommand": {
+    "aliases": [
+      "shop"
+    ],
+    "description": "Öffne den Skyblockshop",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "biomeCommand": {
+    "aliases": [
+      "biome"
+    ],
+    "description": "Öffnet das Biommenü",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "helpCommand": {
+    "aliases": [
+      "help"
+    ],
+    "description": "Zeigt die Pluginbefehle",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "updateCommand": {
+    "aliases": [
+      "update"
+    ],
+    "description": "Update ein Insellevel",
+    "permission": "update",
+    "player": false,
+    "enabled": true
+  },
+  "languagesCommand": {
+    "aliases": [
+      "language",
+      "languages",
+      "translate"
+    ],
+    "description": "Ändere die Pluginsprache",
+    "permission": "iridiumskyblock.language",
+    "player": true,
+    "enabled": true
+  }
+}

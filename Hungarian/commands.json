@@ -1,0 +1,418 @@
+{
+  "createCommand": {
+    "player": true,
+    "aliases": [
+      "create"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Sziget készítése.",
+    "enabled": true
+  },
+  "homeCommand": {
+    "player": true,
+    "aliases": [
+      "home"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Teleportálás a szigetedre",
+    "enabled": true
+  },
+  "deleteCommand": {
+    "player": true,
+    "aliases": [
+      "delete"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Szigeted törlése",
+    "enabled": true
+  },
+  "reloadCommand": {
+    "player": false,
+    "aliases": [
+      "reload"
+    ],
+    "permission": "iridiumskyblock.reload",
+    "description": "Plugin újratöltése (reload).",
+    "enabled": true
+  },
+  "regenCommand": {
+    "player": true,
+    "aliases": [
+      "regen",
+      "reset"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Újragenerálja a szigeted.",
+    "enabled": true
+  },
+  "inviteCommand": {
+    "player": true,
+    "aliases": [
+      "invite"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Játékos meghívása a szigetedre.",
+    "enabled": true
+  },
+  "joinCommand": {
+    "player": true,
+    "aliases": [
+      "join"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Más valaki szigetére belépés.",
+    "enabled": true
+  },
+  "missionsCommand": {
+    "player": true,
+    "aliases": [
+      "missions"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Megnyitja a menüt a küldetésekhez.",
+    "enabled": true
+  },
+  "upgradeCommand": {
+    "player": true,
+    "aliases": [
+      "upgrade"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Megnyitja a menüt a fejlesztésekhez.",
+    "enabled": true
+  },
+  "boosterCommand": {
+    "player": true,
+    "aliases": [
+      "booster"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Megnyitja a menüt a fejlesztésekhez.",
+    "enabled": true
+  },
+  "crystalsCommand": {
+    "player": true,
+    "aliases": [
+      "crystals"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Megmutatja mennyi sziget kristályod van.",
+    "enabled": true
+  },
+  "giveCrystalsCommand": {
+    "player": false,
+    "aliases": [
+      "givecrystals"
+    ],
+    "permission": "iridiumskyblock.givecrystals",
+    "description": "Sziget kristályt utal.",
+    "enabled": true
+  },
+  "removeCrystalsCommand": {
+    "player": false,
+    "aliases": [
+      "removecrystals"
+    ],
+    "permission": "iridiumskyblock.removecrystals",
+    "description": "Sziget kristályok elvétele.",
+    "enabled": true
+  },
+  "membersCommand": {
+    "player": true,
+    "aliases": [
+      "members",
+      "users",
+      "list"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Megmutatja kik vannak a szigetedhez hozzá adva.",
+    "enabled": true
+  },
+  "flyCommand": {
+    "player": true,
+    "aliases": [
+      "fly",
+      "flight"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Be / ki kapcsolja a repülést.",
+    "enabled": true
+  },
+  "aboutCommand": {
+    "player": false,
+    "aliases": [
+      "about",
+      "version"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Plugin információk.",
+    "enabled": true
+  },
+  "warpsCommand": {
+    "player": true,
+    "aliases": [
+      "warps"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Megnyitja a menüt a sziget warpokhoz.",
+    "enabled": true
+  },
+  "warpCommand": {
+    "player": true,
+    "aliases": [
+      "setwarp",
+      "addwarp"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Le rak egy új sziget warpot.",
+    "enabled": true
+  },
+  "valueCommand": {
+    "player": true,
+    "aliases": [
+      "value"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Megmutatja a szigeted értékét.",
+    "enabled": true
+  },
+  "topCommand": {
+    "player": true,
+    "aliases": [
+      "top"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Legjobb szigetek listája",
+    "enabled": true
+  },
+  "leaveCommand": {
+    "player": true,
+    "aliases": [
+      "leave"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Kilép a szigetedről",
+    "enabled": true
+  },
+  "worldBorderCommand": {
+    "player": true,
+    "aliases": [
+      "border",
+      "worldborder",
+      "color",
+      "colour"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Megnyitja a menüt a WorldBorder állításához.",
+    "enabled": true
+  },
+  "kickCommand": {
+    "player": true,
+    "aliases": [
+      "kick"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Kirúg egy játékost a szigetedről",
+    "enabled": true
+  },
+  "visitCommand": {
+    "player": true,
+    "aliases": [
+      "visit"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Meglátogathatsz másokat",
+    "enabled": true
+  },
+  "publicCommand": {
+    "player": true,
+    "aliases": [
+      "public"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Engedélyezi a látogatást",
+    "enabled": true
+  },
+  "privateCommand": {
+    "player": true,
+    "aliases": [
+      "private"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Tiltja a látogatást",
+    "enabled": true
+  },
+  "bypassCommand": {
+    "player": true,
+    "aliases": [
+      "bypass"
+    ],
+    "permission": "iridiumskyblock.bypass",
+    "description": "Nem hatnak rád a szigetek levédései (bypass).",
+    "enabled": true
+  },
+  "setHomeCommand": {
+    "player": true,
+    "aliases": [
+      "sethome"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Lerakja sziget otthonod helyét.",
+    "enabled": true
+  },
+  "permissionsCommand": {
+    "player": true,
+    "aliases": [
+      "permissions"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Sziget jogosultságok kezelése.",
+    "enabled": true
+  },
+  "transferCommand": {
+    "player": true,
+    "aliases": [
+      "transfer"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Tulajdonjog átruházása",
+    "enabled": true
+  },
+  "adminCommand": {
+    "player": true,
+    "aliases": [
+      "admin"
+    ],
+    "permission": "iridiumskyblock.admin",
+    "description": "Irányítja mások szigetét",
+    "enabled": true
+  },
+  "giveBoosterCommand": {
+    "player": false,
+    "aliases": [
+      "givebooster"
+    ],
+    "permission": "iridiumskyblock.givebooster",
+    "description": "Fejlesztést ad egy szigetnek",
+    "enabled": true
+  },
+  "giveUpgradeCommand": {
+    "player": false,
+    "aliases": [
+      "giveupgrade"
+    ],
+    "permission": "iridiumskyblock.giveupgrade",
+    "description": "Fejlesztést ad egy szigetnek",
+    "enabled": true
+  },
+  "banCommand": {
+    "player": true,
+    "aliases": [
+      "ban"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Játékos kitiltása a szigetedről",
+    "enabled": true
+  },
+  "unBanCommand": {
+    "player": true,
+    "aliases": [
+      "unban"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Játékos feloldása a szigetedről",
+    "enabled": true
+  },
+  "coopCommand": {
+    "player": true,
+    "aliases": [
+      "coop"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Csatlakozol egy másik szigethez (Co-op)",
+    "enabled": true
+  },
+  "unCoopCommand": {
+    "player": true,
+    "aliases": [
+      "uncoop"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Visszavonja a csatlakozást (Co-op)",
+    "enabled": true
+  },
+  "setNameCommand": {
+    "player": true,
+    "aliases": [
+      "setname"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Szigeted nevének beállítása",
+    "enabled": true
+  },
+  "bankCommand": {
+    "player": true,
+    "aliases": [
+      "bank"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Megnyitja a sziget bankot",
+    "enabled": true
+  },
+  "chatCommand": {
+    "player": true,
+    "aliases": [
+      "chat"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Szigeted tagjaihoz való üzenés",
+    "enabled": true
+  },
+  "shopCommand": {
+    "player": true,
+    "aliases": [
+      "shop"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Bolt",
+    "enabled": true
+  },
+  "biomeCommand": {
+    "player": true,
+    "aliases": [
+      "biome"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Megnyitja a menüt a biomeok kezeléséhez",
+    "enabled": true
+  },
+  "helpCommand": {
+    "player": true,
+    "aliases": [
+      "help"
+    ],
+    "permission": "iridiumskyblock.",
+    "description": "Megmutatja a parancsokat",
+    "enabled": true
+  },
+  "updateCommand": {
+    "player": false,
+    "aliases": [
+      "update"
+    ],
+    "permission": "iridiumskyblock.update",
+    "description": "Frissíti a sziget szinteket",
+    "enabled": true
+  },
+  "languagesCommand": {
+    "player": true,
+    "aliases": [
+      "language",
+      "languages",
+      "translate"
+    ],
+    "permission": "iridiumskyblock.language",
+    "description": "Megválltoztatja a plugin nyelvét.",
+    "enabled": true
+  }
+}

@@ -1,0 +1,527 @@
+{
+  "upgradeGUITitle": "&7Ulepszenia",
+  "boosterGUITitle": "&7Boostery",
+  "confirmationGUITitle": "&7Jesteś Pewny?",
+  "missionsGUITitle": "&7Misje",
+  "membersGUITitle": "&7Członkowie",
+  "coopGUITitle": "&7Wyspy Co-op",
+  "islandMenuGUITitle": "&7Menu",
+  "warpGUITitle": "&7Warpy",
+  "topGUITitle": "&7Top Wysp",
+  "borderColorGUITitle": "&7Kolor Granicy",
+  "permissionsGUITitle": "&7Uprawnienia",
+  "schematicselectGUITitle": "&7Wybierz Wyspę",
+  "bankGUITitle": "&7IBank Wyspy",
+  "visitGUITitle": "&7Odwiedź Wyspę",
+  "shopGUITitle": "&7ISklep Wyspy",
+  "biomeGUITitle": "&7IBiom Wyspy",
+  "upgradeGUISize": 27,
+  "boosterGUISize": 27,
+  "missionsGUISize": 27,
+  "membersGUISize": 27,
+  "coopGUISize": 27,
+  "islandMenuGUISize": 45,
+  "warpGUISize": 27,
+  "topGUISize": 27,
+  "borderColorGUISize": 27,
+  "permissionsGUISize": 27,
+  "schematicselectGUISize": 27,
+  "bankGUISize": 27,
+  "visitGUISize": 54,
+  "shopGUISize": 54,
+  "biomeGUISize": 54,
+  "spawner": {
+    "material": "SPAWNER",
+    "amount": 1,
+    "title": "&b&lUlepszenia Potworów",
+    "lore": [
+      "&7Respienie potworów działa zbyt wolno? Kup to",
+      "&7Zwięszka pojawianie się potworów x2.",
+      "",
+      "&b&lInformacje:",
+      "&b&l * &7Czas Boostera: &b{spawnerbooster_minutes} minut i {spawnerbooster_seconds}sekund",
+      "&b&l * &7Koszt Boostera: &b{spawnerbooster_crystalcost} Kryształów i ${spawnerbooster_vaultcost}",
+      "",
+      "&b&l[!] &bKliknij PPM aby zakupić booster."
+    ]
+  },
+  "farming": {
+    "material": "WHEAT",
+    "amount": 1,
+    "title": "&b&lUlepszenia Zbiorów",
+    "lore": [
+      "&7Farma rośnie zbyt wolno? Kup to",
+      "&7Zwiększa porost farmy x2.",
+      "",
+      "&b&lInformacje:",
+      "&b&l * &7Czas Boostera: &b{farmingbooster_minutes} minut i {farmingbooster_seconds}sekund",
+      "&b&l * &7Koszt Boostera: &b{farmingbooster_crystalcost} Kryształów i ${farmingbooster_vaultcost}",
+      "",
+      "&b&l[!] &bKliknij LPM aby zakupić booster."
+    ]
+  },
+  "exp": {
+    "material": "EXPERIENCE_BOTTLE",
+    "amount": 1,
+    "title": "&b&lUlepszenie Doświadczenia",
+    "lore": [
+      "&7Wbijanie poziomu trwa zbyt długo? Kup to",
+      "&7Zwiększa exp x2.",
+      "",
+      "&b&lInformacje:",
+      "&b&l * &7Czas Boostera: &b{expbooster_minutes} minut i {expbooster_seconds}sekund",
+      "&b&l * &7Koszt Boostera: &b{expbooster_crystalcost} Kryształów i ${expbooster_vaultcost}",
+      "",
+      "&b&l[!] &bKliknij LPM aby zakupić booster."
+    ]
+  },
+  "flight": {
+    "material": "FEATHER",
+    "amount": 1,
+    "title": "&b&lMożliwość Latania",
+    "lore": [
+      "&7Zmęczony zlatywaniem z wyspy? Kup to",
+      "&7Booster umożliwiający latanie na wyspie Tobie i każdej osobie dodanej do Twojej wyspy.",
+      "",
+      "&b&lInformacje:",
+      "&b&l * &7Czas Boostera: &b{flightbooster_minutes} minut i {flightbooster_seconds}sekund",
+      "&b&l * &7Koszt Boostera: &b{flightbooster_crystalcost} Kryształów i ${flightbooster_vaultcost}",
+      "",
+      "&b&l[!] &bKliknij LPM aby zakupić booster."
+    ]
+  },
+  "size": {
+    "material": "GRASS_BLOCK",
+    "amount": 1,
+    "title": "&b&lWielkość Wyspy",
+    "lore": [
+      "&7Potrzebujesz więcej miejsca? Kup to",
+      "&7Zwiększa wielkość wyspy.",
+      "",
+      "&b&lInformacje:",
+      "&b&l * &7Aktualny Poziom: &b{sizelevel}",
+      "&b&l * &7Aktualna Wielkość: &b{sizeblocks}x{sizeblocks} Bloków",
+      "&b&l * &7Koszt Ulepszenia: &b{sizecrystalscost} Kryształów i ${sizevaultcost}",
+      "&b&lPoziomy:",
+      "&b&l * &7Poziom 1: &b50x50 Bloków",
+      "&b&l * &7Poziom 2: &b100x100 Bloków",
+      "&b&l * &7Poziom 3: &b150x150 Bloków",
+      "",
+      "&b&l[!] &bKliknij LPM aby zakupić booster."
+    ]
+  },
+  "member": {
+    "material": "ARMOR_STAND",
+    "amount": 1,
+    "title": "&b&lLiczba Członków",
+    "lore": [
+      "&7Potrzebujesz więcej osób na wyspie? Kup to",
+      "&7Zwiększa ilośc maksymalnych osób na wyspie.",
+      "",
+      "&b&lInformacje:",
+      "&b&l * &7Aktualny Poziom: &b{memberlevel}",
+      "&b&l * &7Akutalna Ilość: &b{membercount} Członków",
+      "&b&l * &7Koszt Ulepszenia: &b{membercrystalscost} Kryształów i ${membervaultcost}",
+      "&b&lLevels:",
+      "&b&l * &7Poziom 1: &b9 Członków",
+      "&b&l * &7Poziom 2: &b18 Członków",
+      "&b&l * &7Poziom 3: &b27 Członków",
+      "",
+      "&b&l[!] &bKliknij LPM aby zakupić booster."
+    ]
+  },
+  "warp": {
+    "material": "END_PORTAL_FRAME",
+    "amount": 1,
+    "title": "&b&lWarpy Wyspy",
+    "lore": [
+      "&7Potrzebujesz więcej warpów? Kup to",
+      "&7Zwięszka ilość maksymalnych warpów na wyspie.",
+      "",
+      "&b&lInformacje:",
+      "&b&l * &7Aktualny Poziom: &b{warplevel}",
+      "&b&l * &7Aktualna Ilość: &b{warpcount} Warpów",
+      "&b&l * &7Koszt Ulepszenia: &b{warpcrystalscost} Kryształów i ${warpvaultcost}",
+      "&b&lPoziomy:",
+      "&b&l * &7Poziom 1: &b2 Warpów",
+      "&b&l * &7Poziom 2: &b5 Warpów",
+      "&b&l * &7Poziom 3: &b9 Warpów",
+      "",
+      "&b&l[!] &bKliknij LPM aby zakupić booster."
+    ]
+  },
+  "ores": {
+    "material": "DIAMOND_ORE",
+    "amount": 1,
+    "title": "&b&lGenerator Wyspy",
+    "lore": [
+      "&7Chcesz ulepszyć swój generator? Kup to",
+      "&7ulepszenie aby ulepszyć generator swojej wyspy.",
+      "",
+      "&b&lInformacje:",
+      "&b&l * &7Aktualny poziom: &b{oreslevel}",
+      "&b&l * &7Koszt ulepszenia: &b{orescrystalscost} Crystals and ${oresvaultcost}",
+      "",
+      "&b&l[!] &bLeft Click to Purchase this Upgrade"
+    ]
+  },
+  "experience": {
+    "material": "EXPERIENCE_BOTTLE",
+    "amount": 1,
+    "title": "&b&lDoświadczenie Wyspy",
+    "lore": [
+      "&7{experience} Doświadczenia",
+      "&b&l[!] &bLPM aby wypłacić",
+      "&b&l[!] &bPPM aby wpłacić"
+    ],
+    "slot": 11
+  },
+  "crystals": {
+    "material": "NETHER_STAR",
+    "amount": 1,
+    "title": "&b&lKryształy Wyspy",
+    "lore": [
+      "&7{crystals} Kryształów",
+      "&b&l[!] &bLPM aby wypłacić",
+      "&b&l[!] &bPPM aby wpłacić"
+    ],
+    "slot": 13
+  },
+  "money": {
+    "material": "PAPER",
+    "amount": 1,
+    "title": "&b&lPieniądze Wyspy",
+    "lore": [
+      "&7${money}",
+      "&b&l[!] &bLPM aby wypłacić",
+      "&b&l[!] &bPPM aby wpłacić"
+    ],
+    "slot": 15
+  },
+  "crystal": {
+    "material": "NETHER_STAR",
+    "amount": 1,
+    "title": "&b*** &b&lKryształ Wyspy &b***",
+    "lore": [
+      "",
+      "&b&l[!] &bPrzejdź do banku wyspy, aby odebrać."
+    ]
+  },
+  "background": {
+    "material": "BLACK_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": " ",
+    "lore": []
+  },
+  "nextPage": {
+    "material": "LIME_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&a&lNestępna Strona",
+    "lore": []
+  },
+  "previousPage": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&c&lPoprzednia Strona",
+    "lore": []
+  },
+  "biome": {
+    "material": "GRASS_BLOCK",
+    "amount": 1,
+    "title": "&b&l{biome} Biome",
+    "lore": []
+  },
+  "back": {
+    "material": "NETHER_STAR",
+    "amount": 1,
+    "title": "&c&lBack",
+    "lore": []
+  },
+  "islandmember": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&bRola: {role}",
+      "",
+      "&b&l[!] &bLPM aby Degradować tego członka.",
+      "&b&l[!] &bPPM aby Awansować tego członka."
+    ]
+  },
+  "islandcoop": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&b&l * &7Wyspa: &b{name}",
+      "&b&l * &7Ranga: &b{rank}",
+      "&b&l * &7Wartość: &b{value}",
+      "",
+      "&b&l[!] &bLPM aby się teleportować.",
+      "&b&l[!] &bPPM aby wyłączyć co-op tej wyspy."
+    ]
+  },
+  "islandRoles": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&l{role}",
+    "lore": []
+  },
+  "islandPermissionAllow": {
+    "material": "LIME_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&l{permission}",
+    "lore": []
+  },
+  "islandPermissionDeny": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&l{permission}",
+    "lore": []
+  },
+  "islandWarp": {
+    "material": "YELLOW_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&l{warp}",
+    "lore": [
+      "",
+      "&b&l[!] &bLPM aby teleportować się na tego warpa.",
+      "&b&l[!] &bPPM aby usunąć tego warpa."
+    ]
+  },
+  "topisland": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&b&l * &7Wyspa: &b{name}",
+      "",
+      "&b&l * &7Bloki Emeraldów: &b{EMERALD_BLOCK_amount}",
+      "&b&l * &7Bloki Diamentów: &b{DIAMOND_BLOCK_amount}",
+      "&b&l * &7Bloki Złota: &b{GOLD_BLOCK_amount}",
+      "&b&l * &7IBloki Żelaza: &b{IRON_BLOCK_amount}",
+      "&b&l * &7Leje: &b{HOPPER_amount}",
+      "&b&l * &7Latarnie: &b{BEACON_amount}",
+      "",
+      "&b&l * &7Ranga: &b{rank}",
+      "&b&l * &7Wartość: &b{value}",
+      "",
+      "&b&l[!] &bLPM aby się teleportować do wyspy."
+    ]
+  },
+  "visitisland": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&b&l * &7Wypsa: &b{name}",
+      "&b&l * &7Ranga: &b{rank}",
+      "&b&l * &7Wartość: &b{value}",
+      "&b&l * &7Głosy: &b{votes}",
+      "",
+      "&b&l[!] &bLPM aby się teleportować do tej wyspy.",
+      "&b&l[!] &bPPM aby zabrać głos."
+    ]
+  },
+  "red": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&c&lCzerwone",
+    "lore": []
+  },
+  "green": {
+    "material": "LIME_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&a&lZielone",
+    "lore": []
+  },
+  "blue": {
+    "material": "BLUE_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&lNiebieskie",
+    "lore": []
+  },
+  "off": {
+    "material": "WHITE_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&f&lBiałe",
+    "lore": []
+  },
+  "menu": [
+    [
+      {
+        "material": "NAME_TAG",
+        "amount": 1,
+        "title": "&b&lWyspy CO-OP",
+        "lore": [
+          "&7Wyświetl wyspy co-op"
+        ],
+        "slot": 32
+      },
+      "is coop"
+    ],
+    [
+      {
+        "material": "BARRIER",
+        "amount": 1,
+        "title": "&b&lUsuń wyspę.",
+        "lore": [
+          "&7Usuń twoją wyspę."
+        ],
+        "slot": 44
+      },
+      "is delete"
+    ],
+    [
+      {
+        "material": "GOLD_INGOT",
+        "amount": 1,
+        "title": "&b&lBank Wyspy",
+        "lore": [
+          "&7Wyświetl bank swojej wyspy."
+        ],
+        "slot": 30
+      },
+      "is bank"
+    ],
+    [
+      {
+        "material": "END_PORTAL_FRAME",
+        "amount": 1,
+        "title": "&b&lWarpy wyspy.",
+        "lore": [
+          "&7Wyświetl warpy swojej wyspy."
+        ],
+        "slot": 20
+      },
+      "is warps"
+    ],
+    [
+      {
+        "material": "EXPERIENCE_BOTTLE",
+        "amount": 1,
+        "title": "&b&lBoostery wyspy",
+        "lore": [
+          "&7Zboostuj swoją wyspę."
+        ],
+        "slot": 23
+      },
+      "is booster"
+    ],
+    [
+      {
+        "material": "PLAYER_HEAD",
+        "amount": 1,
+        "title": "&b&lCzłonkowie Wyspy",
+        "headOwner": "Peaches_MLG",
+        "lore": [
+          "&7Wyświetl członków wyspy."
+        ],
+        "slot": 14
+      },
+      "is members"
+    ],
+    [
+      {
+        "material": "BOOK",
+        "amount": 1,
+        "title": "&b&lUprawnienia wyspy.",
+        "lore": [
+          "&7Zmień uprawnienia wyspy."
+        ],
+        "slot": 31
+      },
+      "is permissions"
+    ],
+    [
+      {
+        "material": "PLAYER_HEAD",
+        "amount": 1,
+        "title": "&b&lBiomy Wyspy",
+        "headOwner": "BlockminersTV",
+        "lore": [
+          "&7Zmień biom wyspy."
+        ],
+        "slot": 12
+      },
+      "is biome"
+    ],
+    [
+      {
+        "material": "DIAMOND",
+        "amount": 1,
+        "title": "&b&lTOP wysp",
+        "lore": [
+          "&7Wyświetl topkę wysp."
+        ],
+        "slot": 0
+      },
+      "is top"
+    ],
+    [
+      {
+        "material": "WHITE_BED",
+        "amount": 1,
+        "title": "&b&lDom wyspy",
+        "lore": [
+          "&7Teleportuj się do zapisanego domu wyspy."
+        ],
+        "slot": 13
+      },
+      "is home"
+    ],
+    [
+      {
+        "material": "GRASS_BLOCK",
+        "amount": 1,
+        "title": "&b&lRegeneracja Wyspy",
+        "lore": [
+          "&7Zregeneruj swoją wyspę."
+        ],
+        "slot": 36
+      },
+      "is regen"
+    ],
+    [
+      {
+        "material": "PLAYER_HEAD",
+        "amount": 1,
+        "title": "&b&lUlepszenia wyspy.",
+        "headOwner": "ABigDwarf",
+        "lore": [
+          "&7Ulepsz swoją wyspę."
+        ],
+        "slot": 21
+      },
+      "is upgrade"
+    ],
+    [
+      {
+        "material": "IRON_SWORD",
+        "amount": 1,
+        "title": "&b&lZadania Wyspy",
+        "lore": [
+          "&7Wyświetl zadania wyspy."
+        ],
+        "slot": 22
+      },
+      "is missions"
+    ],
+    [
+      {
+        "material": "BEACON",
+        "amount": 1,
+        "title": "&b&lGranice wyspy",
+        "lore": [
+          "&7Zmień kolor lub wyłącz granicę wyspy."
+        ],
+        "slot": 24
+      },
+      "is border"
+    ]
+  ]
+}

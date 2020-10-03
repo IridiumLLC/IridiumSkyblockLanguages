@@ -1,0 +1,528 @@
+{
+  "upgradeGUITitle": "&7Upgrade",
+  "boosterGUITitle": "&7Booster",
+  "confirmationGUITitle": "&7Esti sigur?",
+  "missionsGUITitle": "&7Misiuni",
+  "membersGUITitle": "&7Membrii",
+  "coopGUITitle": "&7Insule Co-op",
+  "islandMenuGUITitle": "&7Meniu",
+  "warpGUITitle": "&7Warps",
+  "topGUITitle": "&7Top Insule",
+  "borderColorGUITitle": "&7Culoare borderului",
+  "permissionsGUITitle": "&7Permisii",
+  "schematicselectGUITitle": "&7Selecteaza o insula",
+  "bankGUITitle": "&7Banca insulei",
+  "visitGUITitle": "&7Viziteaza o insula",
+  "shopGUITitle": "&7Shop-ul insulei",
+  "biomeGUITitle": "&7Biomul insulei",
+  "upgradeGUISize": 27,
+  "boosterGUISize": 27,
+  "missionsGUISize": 27,
+  "membersGUISize": 27,
+  "coopGUISize": 27,
+  "islandMenuGUISize": 45,
+  "warpGUISize": 27,
+  "topGUISize": 27,
+  "borderColorGUISize": 27,
+  "permissionsGUISize": 27,
+  "schematicselectGUISize": 27,
+  "bankGUISize": 27,
+  "visitGUISize": 54,
+  "shopGUISize": 54,
+  "biomeGUISize": 54,
+  "spawner": {
+    "material": "SPAWNER",
+    "amount": 1,
+    "title": "&b&lMareste spawn-ul mobiilor",
+    "lore": [
+      "&7Spanwerele tale sunt prea lente? Cumpara asta",
+      "&7booster si mareste ratele spawnerului cu x2.",
+      "",
+      "&b&lInformation:",
+      "&b&l * &7Timp ramas: &b{spawnerbooster_minutes}  minut(e) si {spawnerbooster_seconds} secunde",
+      "&b&l * &7Costul boosterului: &b{spawnerbooster_crystalcost} cristal(e) si ${spawnerbooster_vaultcost}",
+      "",
+      "&b&l[!] &bClick dreapta pentru a cumpara acest booster."
+    ]
+  },
+  "farming": {
+    "material": "WHEAT",
+    "amount": 1,
+    "title": "&b&lMareste cresterea culturilor",
+    "lore": [
+      "&7Culturile cresc prea greu? Cumpara asta",
+      "&7booster si mareste viteza de creste a culturilor de 2 ori mai repede.",
+      "",
+      "&b&lInformation:",
+      "&b&l * &7Timp ramas: &b{farmingbooster_minutes} minut(e) si {farmingbooster_seconds}seconds",
+      "&b&l * &7Costul boosterului: &b{farmingbooster_crystalcost} cristal(e) si ${farmingbooster_vaultcost}",
+      "",
+      "&b&l[!] &bRight Click to Purchase this Booster."
+    ]
+  },
+  "exp": {
+    "material": "EXPERIENCE_BOTTLE",
+    "amount": 1,
+    "title": "&b&lIncreased Experience",
+    "lore": [
+      "&7Takes too long to get exp? Buy this",
+      "&7booster and exp rates x2.",
+      "",
+      "&b&lInformation:",
+      "&b&l * &7Timp ramas: &b{expbooster_minutes} minut(e) si {expbooster_seconds}seconds",
+      "&b&l * &7Booster Cost: &b{expbooster_crystalcost} cristal(e) si €{expbooster_vaultcost}",
+      "",
+      "&b&l[!] &bClick dreapta pentru a cumpara acest upgrade"
+    ]
+  },
+  "flight": {
+    "material": "FEATHER",
+    "amount": 1,
+    "title": "&b&lZbor crescut",
+    "lore": [
+      "&7Plictisit sa tot cazi de pe insula? Cumpara asta",
+      "&7pentru a permite tuturor membrilor sa zboare",
+      "",
+      "&b&lInformation:",
+      "&b&l * &7Timp ramas: &b{flightbooster_minutes} minut(e) si {flightbooster_seconds}seconds",
+      "&b&l * &7Booster Cost: &b{flightbooster_crystalcost} cristal(e) si €{flightbooster_vaultcost}",
+      "",
+      "&b&l[!] &bClick dreapta pentru a cumpara acest upgrade"
+    ]
+  },
+  "size": {
+    "material": "GRASS_BLOCK",
+    "amount": 1,
+    "title": "&b&lMarimea insulei",
+    "lore": [
+      "&7Ai nevoie de mai mult spațiu pentru a te extinde? Cumpara asta",
+      "&7pentru a iti upgrada marimea insulei.",
+      "",
+      "&b&lInformation:",
+      "&b&l * &7Nivel curent: &b{sizelevel}",
+      "&b&l * &7Marime curenta: &b{sizeblocks}x{sizeblocks} Blocuri",
+      "&b&l * &7Upgrade Cost: &b{sizecrystalscost} cristale si €{sizevaultcost}",
+      "&b&lLevels:",
+      "&b&l * &7Nivelul 1: &b50x50 Blocuri",
+      "&b&l * &7Nivelul 2: &b100x100 Blocuri",
+      "&b&l * &7Nivelul 3: &b150x150 Blocuri",
+      "&b&l * &7Nivelul 3: &b150x150 Blocuri",
+      "",
+      "&b&l[!] &bClick stanga pentru a cumpara acest upgrade"
+    ]
+  },
+  "member": {
+    "material": "ARMOR_STAND",
+    "amount": 1,
+    "title": "&b&lMember Count",
+    "lore": [
+      "&7Ai nevoie de mai multi membrii? Cumpara asta",
+      "&7upgradeazati pentru ati marii nivelul de membrii.",
+      "",
+      "&b&lInformation:",
+      "&b&l * &7Nivel curent: &b{memberlevel}",
+      "&b&l * &7Membrii prezenti: &b{membercount} membrii",
+      "&b&l * &7Upgrade Cost: &b{membercrystalscost} cristale si €{membervaultcost}",
+      "&b&lLevels:",
+      "&b&l * &7Nivelul 1: &b9 Members",
+      "&b&l * &7Nivelul 2: &b18 Members",
+      "&b&l * &7Nivelul 3: &b27 Members",
+      "",
+      "&b&l[!] &bClick stanga pentru a cumpara acest upgrade"
+    ]
+  },
+  "warp": {
+    "material": "END_PORTAL_FRAME",
+    "amount": 1,
+    "title": "&b&lIsland Warps",
+    "lore": [
+      "&7Need more island warps? Buy this",
+      "&7upgrade to increase your warp count.",
+      "",
+      "&b&lInformation:",
+      "&b&l * &7Nivel curent: &b{warplevel}",
+      "&b&l * &7Current Warps: &b{warpcount} Warps",
+      "&b&l * &7Upgrade Cost: &b{warpcrystalscost} cristale si €{warpvaultcost}",
+      "&b&lLevels:",
+      "&b&l * &7Nivelul 1: &b2 Warps",
+      "&b&l * &7Nivelul 2: &b5 Warps",
+      "&b&l * &7Nivelul 3: &b9 Warps",
+      "",
+      "&b&l[!] &bClick stanga pentru a cumpara acest upgrade"
+    ]
+  },
+  "ores": {
+    "material": "DIAMOND_ORE",
+    "amount": 1,
+    "title": "&b&lGeneratorul insulei",
+    "lore": [
+      "&7Vrei sa iti imbunatatesti generatorul? Cumpara asta",
+      "&7upgradeaza pentru ati mari generatorul insulei.",
+      "",
+      "&b&lInformation:",
+      "&b&l * &7Nivel curent: &b{oreslevel}",
+      "&b&l * &7Upgrade Cost: &b{orescrystalscost} cristale si €{oresvaultcost}",
+      "",
+      "&b&l[!] &bClick stanga pentru a cumpara acest upgrade"
+    ]
+  },
+  "experience": {
+    "material": "EXPERIENCE_BOTTLE",
+    "amount": 1,
+    "title": "&b&lIsland Experience",
+    "lore": [
+      "&7{experience} Experience",
+      "&b&l[!] &bClick stanga pentru a retrage",
+      "&b&l[!] &bClick dreapta pentru a depozita"
+    ],
+    "slot": 11
+  },
+  "crystals": {
+    "material": "NETHER_STAR",
+    "amount": 1,
+    "title": "&b&lIsland Crystals",
+    "lore": [
+      "&7{crystals} Crystals",
+      "&b&l[!] &bLeft click to withdraw",
+      "&b&l[!] &bRight click to deposit"
+    ],
+    "slot": 13
+  },
+  "money": {
+    "material": "PAPER",
+    "amount": 1,
+    "title": "&b&lIsland Money",
+    "lore": [
+      "&7€{money}",
+      "&b&l[!] &bClick stanga pentru a retrage",
+      "&b&l[!] &bClick dreapta pentru a depozita"
+    ],
+    "slot": 15
+  },
+  "crystal": {
+    "material": "NETHER_STAR",
+    "amount": 1,
+    "title": "&b*** &b&lCristale insula&b***",
+    "lore": [
+      "",
+      "&b&l[!] &bpentru a rascumpara, mergeți la banca insulei."
+    ]
+  },
+  "background": {
+    "material": "BLACK_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": " ",
+    "lore": []
+  },
+  "nextPage": {
+    "material": "LIME_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&a&lNext Page",
+    "lore": []
+  },
+  "previousPage": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&c&lPagina anterioara.",
+    "lore": []
+  },
+  "biome": {
+    "material": "GRASS_BLOCK",
+    "amount": 1,
+    "title": "&b&l{biome} Biome",
+    "lore": []
+  },
+  "back": {
+    "material": "NETHER_STAR",
+    "amount": 1,
+    "title": "&c&lBack",
+    "lore": []
+  },
+  "islandmember": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&bRole: {role}",
+      "",
+      "&b&l[!] &bClick stanga pentru {demote} acest jucator.",
+      "&b&l[!] &bClick dreapta pentru a promova acest jucator."
+    ]
+  },
+  "islandcoop": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&b&l * &7Insula: &b{name}",
+      "&b&l * &7Rank: &b{rank}",
+      "&b&l * &7Value: &b{value}",
+      "",
+      "&b&l[!] &bClick stanga pentru a te teleporta pe insula.",
+      "&b&l[!] &bClick dreapta pentru a rupe parteneriatul cu insula."
+    ]
+  },
+  "islandRoles": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&l{role}",
+    "lore": []
+  },
+  "islandPermissionAllow": {
+    "material": "LIME_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&l{permission}",
+    "lore": []
+  },
+  "islandPermissionDeny": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&l{permission}",
+    "lore": []
+  },
+  "islandWarp": {
+    "material": "YELLOW_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&l{warp}",
+    "lore": [
+      "",
+      "&b&l[!] &bClick stanga pentru a te teleporta la warp.",
+      "&b&l[!] &bClick dreapta pentru a sters warp-ul."
+    ]
+  },
+  "topisland": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&b&l * &7Island: &b{name}",
+      "",
+      "&b&l * &7Blocuri emerald: &b{EMERALD_BLOCK_amount}",
+      "&b&l * &7Blocuri diamant: &b{DIAMOND_BLOCK_amount}",
+      "&b&l * &7Blocuri aur: &b{GOLD_BLOCK_amount}",
+      "&b&l * &7Blocuri fier: &b{IRON_BLOCK_amount}",
+      "&b&l * &7Hoppere: &b{HOPPER_amount}",
+      "&b&l * &7Beacon-uri: &b{BEACON_amount}",
+      "",
+      "&b&l * &7Rank: &b{rank}",
+      "&b&l * &7Value: &b{value}",
+      "",
+      "&b&l[!] &bClick stanga pentru a te teleporta pe insula."
+    ]
+  },
+  "visitisland": {
+    "material": "PLAYER_HEAD",
+    "amount": 1,
+    "title": "&b&l{player}",
+    "headOwner": "{player}",
+    "lore": [
+      "&b&l * &7Island: &b{name}",
+      "&b&l * &7Rank: &b{rank}",
+      "&b&l * &7Value: &b{value}",
+      "&b&l * &7Votes: &b{votes}",
+      "",
+      "&b&l[!] &bLeft Click to Teleport to this island.",
+      "&b&l[!] &bRight Click to (un)vote for this island."
+    ]
+  },
+  "red": {
+    "material": "RED_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&c&lRed",
+    "lore": []
+  },
+  "green": {
+    "material": "LIME_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&a&lGreen",
+    "lore": []
+  },
+  "blue": {
+    "material": "BLUE_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&b&lBlue",
+    "lore": []
+  },
+  "off": {
+    "material": "WHITE_STAINED_GLASS_PANE",
+    "amount": 1,
+    "title": "&f&lWhite",
+    "lore": []
+  },
+  "menu": [
+    [
+      {
+        "material": "IRON_SWORD",
+        "amount": 1,
+        "title": "&b&lMisiuni insula.",
+        "lore": [
+          "&7Vezi misiunile insulei."
+        ],
+        "slot": 22
+      },
+      "is missions"
+    ],
+    [
+      {
+        "material": "DIAMOND",
+        "amount": 1,
+        "title": "&b&lTop insule.",
+        "lore": [
+          "&7Vezi cele mai bune insule."
+        ],
+        "slot": 0
+      },
+      "is top"
+    ],
+    [
+      {
+        "material": "GOLD_INGOT",
+        "amount": 1,
+        "title": "&b&lBanca insula",
+        "lore": [
+          "&7Vezi banca insulei."
+        ],
+        "slot": 30
+      },
+      "is bank"
+    ],
+    [
+      {
+        "material": "WHITE_BED",
+        "amount": 1,
+        "title": "&b&lCasa insulei.",
+        "lore": [
+          "&7Teleporteaza-te catre casa insulei."
+        ],
+        "slot": 13
+      },
+      "is home"
+    ],
+    [
+      {
+        "material": "EXPERIENCE_BOTTLE",
+        "amount": 1,
+        "title": "&b&lBoostere insula.",
+        "lore": [
+          "&7Imbunatateste-ti insula."
+        ],
+        "slot": 23
+      },
+      "is booster"
+    ],
+    [
+      {
+        "material": "GRASS_BLOCK",
+        "amount": 1,
+        "title": "&b&lRegenereaza Insula.",
+        "lore": [
+          "&7Regenereaza-ti insula."
+        ],
+        "slot": 36
+      },
+      "is regen"
+    ],
+    [
+      {
+        "material": "PLAYER_HEAD",
+        "amount": 1,
+        "title": "&b&lMembrii insulei",
+        "headOwner": "Peaches_MLG",
+        "lore": [
+          "&7Vezi membrii insulei."
+        ],
+        "slot": 14
+      },
+      "is members"
+    ],
+    [
+      {
+        "material": "NAME_TAG",
+        "amount": 1,
+        "title": "&b&lInsule partenere.",
+        "lore": [
+          "&7Vezi insulele partenere."
+        ],
+        "slot": 32
+      },
+      "is coop"
+    ],
+    [
+      {
+        "material": "PLAYER_HEAD",
+        "amount": 1,
+        "title": "&b&lBiom insula.",
+        "headOwner": "BlockminersTV",
+        "lore": [
+          "&7Schimba biomul insulei."
+        ],
+        "slot": 12
+      },
+      "is biome"
+    ],
+    [
+      {
+        "material": "BOOK",
+        "amount": 1,
+        "title": "&b&lPermisiuni insula.",
+        "lore": [
+          "&7Schimba permisiunile insulei."
+        ],
+        "slot": 31
+      },
+      "is permissions"
+    ],
+    [
+      {
+        "material": "BARRIER",
+        "amount": 1,
+        "title": "&b&lSterge insula",
+        "lore": [
+          "&7Sterge-ti insula."
+        ],
+        "slot": 44
+      },
+      "is delete"
+    ],
+    [
+      {
+        "material": "END_PORTAL_FRAME",
+        "amount": 1,
+        "title": "&b&lWarpuri insula.",
+        "lore": [
+          "&7Vezi warpurile insulei."
+        ],
+        "slot": 20
+      },
+      "is warps"
+    ],
+    [
+      {
+        "material": "PLAYER_HEAD",
+        "amount": 1,
+        "title": "&b&lUpgrade-uri insula",
+        "headOwner": "ABigDwarf",
+        "lore": [
+          "&7Upgradeaza-ti insula."
+        ],
+        "slot": 21
+      },
+      "is upgrade"
+    ],
+    [
+      {
+        "material": "BEACON",
+        "amount": 1,
+        "title": "&b&lBorder insula.",
+        "lore": [
+          "&7Schimbati borderul insulei."
+        ],
+        "slot": 24
+      },
+      "is border"
+    ]
+  ]
+}

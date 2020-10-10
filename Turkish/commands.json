@@ -1,398 +1,460 @@
 {
   "createCommand": {
-    "player": true,
     "aliases": [
       "create"
     ],
-    "permission": "iridiumskyblock.",
     "description": "Yeni bir ada oluşturur",
+    "permission": "iridiumskyblock.",
+    "player": true,
     "enabled": true
   },
   "homeCommand": {
-    "player": true,
     "aliases": [
       "home"
     ],
-    "permission": "iridiumskyblock.",
     "description": "Ada evinize ışınlanma",
+    "permission": "iridiumskyblock.",
+    "player": true,
     "enabled": true
   },
   "deleteCommand": {
-    "player": true,
     "aliases": [
       "delete"
     ],
-    "permission": "iridiumskyblock.",
     "description": "Adanı siler",
+    "permission": "iridiumskyblock.",
+    "player": true,
     "enabled": true
   },
   "reloadCommand": {
-    "player": false,
     "aliases": [
       "reload"
     ],
+    "description": "Yapılandırmalarınızı yeniden yükleyin(Admin)",
     "permission": "iridiumskyblock.reload",
-    "description": "Yapılandırmalarınızı yeniden yükleyin",
+    "player": false,
     "enabled": true
   },
   "regenCommand": {
-    "player": true,
     "aliases": [
       "regen",
       "reset"
     ],
-    "permission": "iridiumskyblock.",
     "description": "Adanızı yenileyin",
+    "permission": "iridiumskyblock.",
+    "player": true,
     "enabled": true
   },
   "inviteCommand": {
-    "player": true,
     "aliases": [
       "invite"
     ],
-    "permission": "iridiumskyblock.",
     "description": "Bir oyuncuyu adanıza davet edin",
+    "permission": "iridiumskyblock.",
+    "player": true,
     "enabled": true
   },
   "joinCommand": {
-    "player": true,
     "aliases": [
       "join"
     ],
-    "permission": "iridiumskyblock.",
     "description": "Başka bir oyuncu adasına katılın",
+    "permission": "iridiumskyblock.",
+    "player": true,
     "enabled": true
   },
   "missionsCommand": {
-    "player": true,
     "aliases": [
       "missions"
     ],
+    "description": "Ada görev menüsünü açar",
     "permission": "iridiumskyblock.",
-    "description": "Görev menüsünü açar",
+    "player": true,
     "enabled": true
   },
   "upgradeCommand": {
-    "player": true,
     "aliases": [
       "upgrade"
     ],
+    "description": "Ada yükseltme menüsünü açar",
     "permission": "iridiumskyblock.",
-    "description": "Yükseltme menüsünü açar",
+    "player": true,
     "enabled": true
   },
   "boosterCommand": {
-    "player": true,
     "aliases": [
       "booster"
     ],
+    "description": "Ada güçlendirme menüsünü açar",
     "permission": "iridiumskyblock.",
-    "description": "Hidrofor menüsünü açar",
+    "player": true,
     "enabled": true
   },
   "crystalsCommand": {
-    "player": true,
     "aliases": [
       "crystals"
     ],
-    "permission": "iridiumskyblock.",
     "description": "Kaç tane ada kristaliniz olduğunu gösterir",
+    "permission": "iridiumskyblock.",
+    "player": true,
     "enabled": true
   },
   "giveCrystalsCommand": {
-    "player": false,
     "aliases": [
       "givecrystals"
     ],
-    "permission": "iridiumskyblock.givecrystals",
     "description": "Oyuncuya Kristaller Verir",
+    "permission": "iridiumskyblock.givecrystals",
+    "player": false,
     "enabled": true
   },
   "removeCrystalsCommand": {
-    "player": false,
     "aliases": [
       "removecrystals"
     ],
-    "permission": "iridiumskyblock.removecrystals",
     "description": "Oyuncunun Kristallerini kaldırır",
+    "permission": "iridiumskyblock.removecrystals",
+    "player": false,
     "enabled": true
   },
   "membersCommand": {
-    "player": true,
     "aliases": [
       "members",
       "users",
       "list"
     ],
-    "permission": "iridiumskyblock.",
     "description": "Ada üyelerinizi görüntüleyin",
+    "permission": "iridiumskyblock.",
+    "player": true,
     "enabled": true
   },
   "flyCommand": {
-    "player": true,
     "aliases": [
       "fly",
       "flight"
     ],
-    "permission": "iridiumskyblock.",
     "description": "Uçma yeteneğini aç / kapat",
+    "permission": "iridiumskyblock.",
+    "player": true,
     "enabled": true
   },
   "aboutCommand": {
-    "player": false,
     "aliases": [
       "about",
       "version"
     ],
+    "description": "Eklenti hakkında bilgiler",
     "permission": "iridiumskyblock.",
-    "description": "Eklenti bilgilerini görüntüler",
+    "player": false,
     "enabled": true
   },
   "warpsCommand": {
-    "player": true,
     "aliases": [
       "warps"
     ],
+    "description": "Ada ışınlanma noktaları menüsünü açar",
     "permission": "iridiumskyblock.",
-    "description": "Ada Warp menüsünü açar",
+    "player": true,
     "enabled": true
   },
   "warpCommand": {
-    "player": true,
     "aliases": [
       "setwarp",
       "addwarp"
     ],
+    "description": "Yeni bir ada ışınlanma noktası oluşturur",
     "permission": "iridiumskyblock.",
-    "description": "Yeni bir ada warpı kurun",
+    "player": true,
     "enabled": true
   },
   "valueCommand": {
-    "player": true,
     "aliases": [
-      "value"
+      "value",
+	  "level"
     ],
-    "permission": "iridiumskyblock.",
     "description": "Ada seviyenizi gösterir",
+    "permission": "iridiumskyblock.",
+    "player": true,
     "enabled": true
   },
   "topCommand": {
-    "player": true,
     "aliases": [
       "top"
     ],
-    "permission": "iridiumskyblock.",
     "description": "En iyi adaları görüntüler",
+    "permission": "iridiumskyblock.",
+    "player": true,
     "enabled": true
   },
   "leaveCommand": {
-    "player": true,
     "aliases": [
       "leave"
     ],
-    "permission": "iridiumskyblock.",
     "description": "Bir adadan ayrılır",
+    "permission": "iridiumskyblock.",
+    "player": true,
     "enabled": true
   },
   "worldBorderCommand": {
-    "player": true,
     "aliases": [
       "border",
       "worldborder",
       "color",
       "colour"
     ],
+    "description": "Ada sınırı menüsünü açar",
     "permission": "iridiumskyblock.",
-    "description": "Ada Duvar Sınırı Menüsünü açar",
+    "player": true,
     "enabled": true
   },
   "kickCommand": {
-    "player": true,
     "aliases": [
       "kick"
     ],
+    "description": "Adadan bir üyeyi atar",
     "permission": "iridiumskyblock.",
-    "description": "Adadan bir oyuncu atar",
+    "player": true,
     "enabled": true
   },
   "visitCommand": {
-    "player": true,
     "aliases": [
       "visit"
     ],
-    "permission": "iridiumskyblock.",
     "description": "Başka bir oyuncu adasını ziyaret eder",
+    "permission": "iridiumskyblock.",
+    "player": true,
     "enabled": true
   },
   "publicCommand": {
-    "player": true,
     "aliases": [
       "public"
     ],
+    "description": "Adanızı ziyaret etmeye açar",
     "permission": "iridiumskyblock.",
-    "description": "Oyuncuların adanızı ziyaret etmesine izin verir",
+    "player": true,
     "enabled": true
   },
   "privateCommand": {
-    "player": true,
     "aliases": [
       "private"
     ],
+    "description": "Adanızı ziyaret etmeye kapatır",
     "permission": "iridiumskyblock.",
-    "description": "Adanızı ziyaret eden oyuncuların iznini kaldırır",
+    "player": true,
     "enabled": true
   },
   "bypassCommand": {
-    "player": true,
     "aliases": [
       "bypass"
     ],
+    "description": "Tüm adalarda yetki (Admin)",
     "permission": "iridiumskyblock.bypass",
-    "description": "Tüm ada kısıtlamalarını kaldırır",
+    "player": true,
     "enabled": true
   },
   "setHomeCommand": {
-    "player": true,
     "aliases": [
       "sethome"
     ],
+    "description": "Ada ev noktasını ayarlar",
     "permission": "iridiumskyblock.",
-    "description": "Ada başlangıç bölgesini ayarlar",
+    "player": true,
     "enabled": true
   },
   "permissionsCommand": {
-    "player": true,
     "aliases": [
       "permissions"
     ],
-    "permission": "iridiumskyblock.",
     "description": "Ada izinlerini düzenler",
+    "permission": "iridiumskyblock.",
+    "player": true,
     "enabled": true
   },
   "transferCommand": {
-    "player": true,
     "aliases": [
       "transfer"
     ],
+    "description": "Ada liderliği devretme",
     "permission": "iridiumskyblock.",
-    "description": "Ada sahipliğini aktarma",
+    "player": true,
     "enabled": true
   },
   "adminCommand": {
-    "player": true,
     "aliases": [
       "admin"
     ],
+    "description": "Oyuncuların ada menüsüne erişim (Admin)",
     "permission": "iridiumskyblock.admin",
-    "description": "Oyuncuları kontrol et (Ada)",
+    "player": true,
     "enabled": true
   },
   "giveBoosterCommand": {
-    "player": false,
     "aliases": [
       "givebooster"
     ],
+    "description": "Bir adaya güçlendirme hediye et",
     "permission": "iridiumskyblock.givebooster",
-    "description": "Bir Adaya Güçlendirici Verir",
+    "player": false,
     "enabled": true
   },
   "giveUpgradeCommand": {
-    "player": false,
     "aliases": [
       "giveupgrade"
     ],
+    "description": "Bir Adaya yükseltme hediye et",
     "permission": "iridiumskyblock.giveupgrade",
-    "description": "Bir Adaya Yükseltme Yapar",
+    "player": false,
     "enabled": true
   },
   "banCommand": {
-    "player": true,
     "aliases": [
       "ban"
     ],
+    "description": "Bir oyuncuyu adanızdan yasaklayın",
     "permission": "iridiumskyblock.",
-    "description": "Bir oyuncunun adanızı ziyaret etmesini yasaklayın",
+    "player": true,
     "enabled": true
   },
   "unBanCommand": {
-    "player": true,
     "aliases": [
       "unban"
     ],
+    "description": "Bir oyuncunun adanızdan yasaklamasını kaldırın",
     "permission": "iridiumskyblock.",
-    "description": "Bir oyuncunun adanızı ziyaret etmesini sağlayın",
+    "player": true,
     "enabled": true
   },
   "coopCommand": {
-    "player": true,
     "aliases": [
-      "coop"
+      "coop",
+	  "trust"
     ],
+    "description": "Adanıza ortak ada ekler",
     "permission": "iridiumskyblock.",
-    "description": "Sizi bir adaya götürür",
+    "player": true,
     "enabled": true
   },
   "unCoopCommand": {
-    "player": true,
     "aliases": [
-      "uncoop"
+      "uncoop",
+	  "untrust"
     ],
+    "description": "Adanızın ortağı olan adayı ortaklıktan çıkartır",
     "permission": "iridiumskyblock.",
-    "description": "Bir Ada davetini iptal eder",
+    "player": true,
     "enabled": true
   },
   "setNameCommand": {
-    "player": true,
     "aliases": [
       "setname"
     ],
+    "description": "Ada ismini belirleyin",
     "permission": "iridiumskyblock.",
-    "description": "Ada adınızı belirleyin",
+    "player": true,
     "enabled": true
   },
   "bankCommand": {
-    "player": true,
     "aliases": [
       "bank"
     ],
+    "description": "Ada bankasını açar",
     "permission": "iridiumskyblock.",
-    "description": "Banka menüsünü açar",
+    "player": true,
     "enabled": true
   },
   "chatCommand": {
-    "player": true,
     "aliases": [
       "chat"
     ],
+    "description": "Ada takımıyla sohbet",
     "permission": "iridiumskyblock.",
-    "description": "Ada üyelerinizle konuşun",
+    "player": true,
     "enabled": true
   },
   "shopCommand": {
-    "player": true,
     "aliases": [
       "shop"
     ],
+    "description": "Ada mağazasına erişin",
     "permission": "iridiumskyblock.",
-    "description": "Skyblock Mağazasına erişin",
+    "player": true,
     "enabled": true
   },
   "biomeCommand": {
-    "player": true,
     "aliases": [
       "biome"
     ],
+    "description": "Ada biyom menüsünü açar",
     "permission": "iridiumskyblock.",
-    "description": "Biyom menüsünü açar",
+    "player": true,
     "enabled": true
   },
   "helpCommand": {
-    "player": true,
     "aliases": [
       "help"
     ],
+    "description": "Yardım listesi",
     "permission": "iridiumskyblock.",
-    "description": "Eklenti komutlarını görüntüler",
+    "player": true,
+    "enabled": true
+  },
+  "languagesCommand": {
+    "aliases": [
+      "language",
+      "languages",
+      "translate"
+    ],
+    "description": "Eklenti dilini değiştirir (Admin)",
+    "permission": "iridiumskyblock.language",
+    "player": true,
+    "enabled": true
+  },
+  "recalculateCommand": {
+    "id": 0,
+    "aliases": [
+      "recalc",
+      "recalculate"
+    ],
+    "description": "Tüm adaların seviyesini yeniden hesaplar (Admin)",
+    "permission": "recalculate",
+    "player": false,
+    "enabled": true
+  },
+  "addValueCommand": {
+    "aliases": [
+      "addvalue"
+    ],
+    "description": "Bir adaya ekstra level ekleme (Admin)",
+    "permission": "iridiumskyblock.addvalue",
+    "player": false,
+    "enabled": true
+  },
+  "removeValueCommand": {
+    "aliases": [
+      "removevalue"
+    ],
+    "description": "Bir adadan level silme(Admin)",
+    "permission": "iridiumskyblock.removevalue",
+    "player": false,
+    "enabled": true
+  },
+  "expelCommand": {
+    "aliases": [
+      "expel",
+      "visitors"
+    ],
+    "description": "Ada ziyaretçilerinizi atma",
+    "permission": "",
+    "player": true,
+    "enabled": true
+  },
+  "buyBoosterCommand": {
+    "aliases": [
+      "buybooster"
+    ],
+    "description": "Yükseltme satın al",
+    "permission": "",
+    "player": true,
     "enabled": true
   }
 }

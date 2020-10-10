@@ -1,7 +1,7 @@
 {
   "missions": [
     {
-      "name": "Treasure Hunter",
+      "name": "Tecrübe toplayıcı",
       "levels": {
         "1": {
           "crystalReward": 5,
@@ -28,23 +28,25 @@
       "item": {
         "material": "EXPERIENCE_BOTTLE",
         "amount": 1,
-        "title": "&b&lHazine Avcısı Seviyesi {level}",
+        "title": "&b&lTecrübe toplayıcı Seviyesi {level}",
         "lore": [
-          "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+          "&7Yükseltmeler ve güçlendirmeler için kullanılabilir",
           "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
           "",
           "&b&lBilgi:",
-          "&b&l * &7Amaç: &b{amount} Deneyim Topla",
-          "&b&l * &7Şu anki durum: &b{status}",
+          "&b&l * &7Görev: &b{amount} Deneyim Topla",
+          "&b&l * &7Güncel: &b{status}",
           "&b&l * &7Ödül: &b{crystalsReward} Ada Kristalleri ve ${vaultReward}",
           "",
-          "&b&l[!] &bÖdüller için bu görevi tamamla."
+          "&b&l[!] &bGörev tamamlandığında ödüller,",
+          "&b&l[!] &bdirekt olarak ada bankanıza gider."
+		  
         ],
         "slot": 10
       }
     },
     {
-      "name": "Competitor",
+      "name": "Seviye yarışı",
       "levels": {
         "1": {
           "crystalReward": 5,
@@ -87,21 +89,22 @@
         "amount": 1,
         "title": "&b&lRakip Düzeyi Seviye {level}",
         "lore": [
-          "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+          "&7Yükseltmeler ve güçlendirmeler için kullanılabilir",
           "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
           "",
           "&b&lBilgi:",
-          "&b&l * &7Amaç: &b{amount} Ada Leveli",
-          "&b&l * &7Şu anki durum: &b{status}",
+          "&b&l * &7Görev: &b{amount} Ada Leveli",
+          "&b&l * &7Güncel: &b{status}",
           "&b&l * &7Ödül: &b{crystalsReward} Ada Kristalleri ve ${vaultReward}",
           "",
-          "&b&l[!] &bÖdüller için bu görevi tamamla."
+          "&b&l[!] &bGörev tamamlandığında ödüller,",
+          "&b&l[!] &bdirekt olarak ada bankanıza gider."
         ],
         "slot": 11
       }
     },
     {
-      "name": "Miner",
+      "name": "Madenci",
       "levels": {
         "1": {
           "crystalReward": 1,
@@ -189,21 +192,22 @@
         "amount": 1,
         "title": "&b&lMadenci Seviyesi {level}",
         "lore": [
-          "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+          "&7Yükseltmeler ve güçlendirmeler için kullanılabilir",
           "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
           "",
           "&b&lBilgi:",
-          "&b&l * &7Amaç: &b{amount} Cevheri Yok Et",
-          "&b&l * &7Şu anki durum: &b{status}",
+          "&b&l * &7Görev: &b{amount} Cevheri Yok Et",
+          "&b&l * &7Güncel: &b{status}",
           "&b&l * &7Ödül: &b{crystalsReward} Ada Kristalleri ve ${vaultReward}",
           "",
-          "&b&l[!] &bÖdüller için bu görevi tamamla."
+          "&b&l[!] &bGörev tamamlandığında ödüller,",
+          "&b&l[!] &bdirekt olarak ada bankanıza gider."
         ],
         "slot": 12
       }
     },
     {
-      "name": "Farmer",
+      "name": "Tarımcı",
       "levels": {
         "1": {
           "crystalReward": 1,
@@ -254,23 +258,24 @@
       "item": {
         "material": "SUGAR_CANE",
         "amount": 1,
-        "title": "&b&lTarım Seviyesi {level}",
+        "title": "&b&lTarımcı Seviyesi {level}",
         "lore": [
-          "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+          "&7Yükseltmeler ve güçlendirmeler için kullanılabilir",
           "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
           "",
           "&b&lBilgi:",
-          "&b&l * &7Amaç: &b{amount} Bitki Hasat Et",
-          "&b&l * &7Şu anki durum: &b{status}",
+          "&b&l * &7Görev: &b{amount} Bitki Hasat Et",
+          "&b&l * &7Güncel: &b{status}",
           "&b&l * &7Ödül: &b{crystalsReward} Ada Kristalleri ve ${vaultReward}",
           "",
-          "&b&l[!] &bÖdüller için bu görevi tamamla."
+          "&b&l[!] &bGörev tamamlandığında ödüller,",
+          "&b&l[!] &bdirekt olarak ada bankanıza gider."
         ],
         "slot": 13
       }
     },
     {
-      "name": "Hunter",
+      "name": "Avcı",
       "levels": {
         "1": {
           "crystalReward": 1,
@@ -313,21 +318,22 @@
         "amount": 1,
         "title": "&b&lAvcı Seviyesi {level}",
         "lore": [
-          "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+          "&7Yükseltmeler ve güçlendirmeler için kullanılabilir",
           "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
           "",
           "&b&lBilgi:",
-          "&b&l * &7Amaç: &b{amount} Mob öldür",
-          "&b&l * &7Şu anki durum: &b{status}",
+          "&b&l * &7Görev: &b{amount} Mob öldür",
+          "&b&l * &7Güncel: &b{status}",
           "&b&l * &7Ödül: &b{crystalsReward} Ada Kristalleri ve ${vaultReward}",
           "",
-          "&b&l[!] &bÖdüller için bu görevi tamamla."
+          "&b&l[!] &bGörev tamamlandığında ödüller,",
+          "&b&l[!] &bdirekt olarak ada bankanıza gider."
         ],
         "slot": 14
       }
     },
     {
-      "name": "Fisherman",
+      "name": "Balıkçı",
       "levels": {
         "1": {
           "crystalReward": 1,
@@ -370,21 +376,22 @@
         "amount": 1,
         "title": "&b&lBalıkçı Seviyesi {level}",
         "lore": [
-          "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+          "&7Yükseltmeler ve güçlendirmeler için kullanılabilir",
           "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
           "",
-          "&b&lInformation:",
-          "&b&l * &7Amaç: &b{amount} Balık Tut",
-          "&b&l * &7Şu anki durum: &b{status}",
+          "&b&lBilgi:",
+          "&b&l * &7Görev: &b{amount} Balık Tut",
+          "&b&l * &7Güncel: &b{status}",
           "&b&l * &7Ödül: &b{crystalsReward} Ada Kristalleri ve ${vaultReward}",
           "",
-          "&b&l[!] &bÖdüller için bu görevi tamamla."
+          "&b&l[!] &bGörev tamamlandığında ödüller,",
+          "&b&l[!] &bdirekt olarak ada bankanıza gider."
         ],
         "slot": 15
       }
     },
     {
-      "name": "Builder",
+      "name": "Mimar",
       "levels": {
         "1": {
           "crystalReward": 1,
@@ -432,17 +439,18 @@
       "item": {
         "material": "COBBLESTONE",
         "amount": 1,
-        "title": "&b&lBuilder Seviyesi {level}",
+        "title": "&b&lMimar Seviyesi {level}",
         "lore": [
-          "&7Arttırıcılar ve Yükseltmeler için harcanabilecek",
+          "&7Yükseltmeler ve güçlendirmeler için kullanılabilir",
           "&7kristalleri kazanmak için ada görevlerini tamamlayın.",
           "",
-          "&b&lInformation:",
-          "&b&l * &7Objective: &b{amount} Blok yerleştir",
-          "&b&l * &7Şu anki durum: &b{status}",
+          "&b&lBilgi:",
+          "&b&l * &7Görev: &b{amount} Blok yerleştir",
+          "&b&l * &7Güncel: &b{status}",
           "&b&l * &7Ödül: &b{crystalsReward} Ada Kristalleri ve ${vaultReward}",
           "",
-          "&b&l[!] &bÖdüller için bu görevi tamamla."
+          "&b&l[!] &bGörev tamamlandığında ödüller,",
+          "&b&l[!] &bdirekt olarak ada bankanıza gider."
         ],
         "slot": 16
       }
